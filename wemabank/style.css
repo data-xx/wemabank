@@ -59,7 +59,6 @@
 }
 
 .nav2 {
-    border: 2px solid black;
     width: 1260px;
     display: flex;
     justify-content: space-between;
