@@ -58,6 +58,10 @@
 
 }
 
+.hr {
+    opacity: 0.3;
+}
+
 .nav2 {
     width: 1260px;
     display: flex;
