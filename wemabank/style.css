@@ -137,3 +137,91 @@
 .dropdown-list a:hover {
     background-color: #f1f1f1;
 }
+
+section {
+    border: 2px solid red;
+    height: 100vh;
+}
+
+.carousel-container {
+    border: 2px solid red;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /* Hides default scrollbars if desired */
+}
+
+.carousel-slide1 {
+    background-image: url(https://wemabank.com/assets/hero-background-NkSVHum_.png);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.carousel-slide2 {
+    background-color: white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .slide1-image1-div {
+    position: absolute;
+   
+} */
+.slide1-image2-div {
+
+    margin-top: 120px;
+    margin-left: -25px;
+}
+
+/* .slide-image3-div {
+    position: absolute;
+    margin-left: -250px;
+} */
+
+.slide2-image1 {
+
+    padding-top: 30px;
+}
+
+.slide2-image2 {
+
+    margin-left: -50px;
+    padding-bottom: 25px;
+
+
+}
+
+/* .carousel-track {
+    display: flex;
+    Lines up items horizontally overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    Snaps to items scroll-behavior: smooth;
+    Enables smooth scrolling gap: 10px;
+    Space between cards padding: 10px;
+}
+
+.carousel-slide {
+    flex: 0 0 80%;
+    /* Each card takes up 80% width of the container */
+scroll-snap-align: center;
+/* Snaps to the center of each item */
+
+/* Styling to make them visible */
+height: 200px;
+background-color: #ddd;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2em;
+}
+
+*/
