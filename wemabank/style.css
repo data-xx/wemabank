@@ -124,13 +124,19 @@ body {
     border: 2px solid red;
 }
 
-.custom-slide {
+
+.carousel-item {
     height: 600px;
     width: 100%;
-    background-image: url(https://wemabank.com/assets/hero-background-NkSVHum_.png);
     position: relative;
     background-position: center;
     background-size: cover;
+
+}
+
+.custom-slide {
+    background-image: url(https://wemabank.com/assets/hero-background-NkSVHum_.png);
+
 }
 
 .overlay-images {
@@ -149,12 +155,7 @@ body {
 
 
 .custom-slide2 {
-    height: 600px;
-    width: 100%;
     background-color: white;
-    position: relative;
-    background-size: cover;
-    background-position: center;
 }
 
 .img4 {
@@ -166,14 +167,59 @@ body {
 }
 
 .custom-slide3 {
-    height: 600px;
-    width: 100%;
     background-image: url(https://wemabank.com/assets/bg-wk-lUXns.png);
-    position: relative;
-    background-size: cover;
-    background-position: center;
 }
 
 .img6 {
     margin-left: 160px;
+}
+
+.custom-slide4 {
+    background-color: white;
+}
+
+.img8 {
+    margin-left: 15vw;
+}
+
+.img9 {
+    margin-left: 100px;
+}
+
+.custom-slide5 {
+    background-image: linear-gradient(to right, rgb(129, 47, 129) 70%, purple 30%);
+}
+
+.text-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-img-div {
+    color: white;
+
+}
+
+.p-header {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 56px;
+    line-height: 59.2px;
+    font-weight: 600;
+}  
+
+.p2-header {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 25px;
+
+}
+
+.text-img-div > button {
+    padding: 12px 24px;
+    color: purple;
+    border-radius: 50px;
+    border: none;
 }
