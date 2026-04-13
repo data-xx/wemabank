@@ -186,16 +186,51 @@ section {
     align-items: center;
     padding-left: 15vw;
     padding-right: 10vw;
-    height: 60vh;  
+    height: 60vh;
 }
+
 .carousel-slide5 {
     /* background-image: url(https://wemabank.com/assets/background-V42PbY_R.png); */
-    background-color: #981D87;
+    background-image: linear-gradient(to right, rgb(126, 28, 126) 60%, purple 40%);
     height: 60vh;
-    
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 9vw;
+    padding-right: 10vw;
 }
 
+.slide5-text {
+    border: 2px solid red;
+    height: 60vh;
+    width: 60%;
+    color: white;
+    padding-top: 12%;
+}
+
+.slide5-text .p-header {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 59.2px;
+}
+
+.slide5-text .p2-header {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    
+}
+
+.slide5-img {
+    border: 2px solid red;
+    margin-left: -350px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 2rem;
+
+}
 
 .slide3-image2 {
     margin-left: -60px;
