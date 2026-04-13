@@ -9,7 +9,8 @@ body {
     overflow-x: hidden;
 }
 
-.nav, .nav2 {
+.nav,
+.nav2 {
     width: 100%;
     max-width: 1260px;
     margin: 0 auto;
@@ -50,7 +51,7 @@ body {
     cursor: pointer;
 }
 
-.nav > button {
+.nav>button {
     background-color: #981D87;
     color: white;
     border-radius: 50px;
@@ -119,74 +120,7 @@ body {
     background-color: #fff;
 }
 
-.custom-slide-height {
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+.carousel-inner {
+    border: 2px solid red;
 }
 
-.carousel-slide1 {
-    background-image: url('https://wemabank.com/assets/hero-background-NkSVHum_.png');
-    background-size: cover;
-    justify-content: space-evenly;
-}
-
-.carousel-slide2 { 
-    background-color: #fff; 
-}
-
-.carousel-slide3 {
-    background-image: url('https://wemabank.com/assets/bg-wk-lUXns.png');
-    background-size: cover;
-}
-
-.carousel-slide4 {
-    justify-content: space-between;
-    padding: 0 10%;
-}
-
-.carousel-slide5 {
-    background: linear-gradient(to right, rgb(126, 28, 126) 60%, purple 40%);
-    padding: 0 10%;
-}
-
-.slide5-text {
-    color: white;
-    flex: 1;
-}
-
-.p-header {
-    font-family: "Inter Tight", sans-serif;
-    font-size: clamp(32px, 5vw, 56px);
-    font-weight: 600;
-    line-height: 1.1;
-}
-
-.slide5-text button {
-    padding: 12px 24px;
-    background-color: white;
-    color: purple;
-    border-radius: 50px;
-    border: none;
-    margin-top: 20px;
-}
-
-.slide1-image2-div { 
-    margin-top: 50px; 
-}
-
-.carousel-item img {
-    max-width: 100%;
-    height: auto;
-}
-
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: rgba(0,0,0,0.2);
-    border-radius: 50%;
-    padding: 20px;
-}
