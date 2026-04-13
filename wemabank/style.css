@@ -5,18 +5,18 @@
     font-family: "Inter", sans-serif;
 }
 
-.nav {
-    border-bottom-width: 100%;
-    width: 1260px;
+body {
+    overflow-x: hidden;
+}
+
+.nav, .nav2 {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-height: fit-content;
-    margin: auto;
-    padding-top: 16px;
-    padding-bottom: 13px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 12px 32px;
 }
 
 .nav img {
@@ -26,65 +26,22 @@
 
 .menulist {
     display: flex;
-    justify-content: space-between;
-    font-family: "Inter", sans-serif;
     list-style: none;
-    line-height: 24px;
-    font-size: 14px;
-    color: #565D77;
-    align-items: center;
     gap: 1.2rem;
+    margin-bottom: 0;
 }
 
-.nav>button {
-    font-family: "Inter Tight", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    border: none;
-    padding: 4px 12px;
-    gap: 0.5rem;
-    font-size: 16px;
-    line-height: 24px;
-    color: white;
-    vertical-align: auto;
-    background-color: #981D87;
-}
-
-.first-anchor {
-    color: white;
+.anchors {
+    color: #565D77;
     text-decoration: none;
-}
-
-.nav>button img {
-    width: 16px;
-    height: 24px;
-
-}
-
-.hr {
-    opacity: 0.3;
-}
-
-.nav2 {
-    width: 1260px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-height: fit-content;
-    margin: auto;
-    padding: 12px 32px;
-    padding-left: 32px;
-    padding-right: 32px;
-    background-color: #fdfdfd;
+    font-size: 14px;
 }
 
 .nav2-menulist {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 310px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .nav2-menulist li:hover {
@@ -93,19 +50,36 @@
     cursor: pointer;
 }
 
-.search-div {
+.nav > button {
+    background-color: #981D87;
+    color: white;
     border-radius: 50px;
+    border: none;
+    padding: 8px 20px;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.first-anchor {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.search-div {
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 36px;
+    height: 36px;
     background-color: #981D87;
 }
 
-.anchors {
-    color: #565D77;
-    text-decoration: none;
+.hr {
+    opacity: 0.1;
+    margin: 0;
 }
 
 .dropdown {
@@ -116,237 +90,103 @@
 .dropdown-list {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     min-width: 220px;
-    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    top: 100%;
 }
 
 .dropdown:hover .dropdown-list {
     display: block;
-
 }
 
 .dropdown-list a {
-    color: black;
-    padding: 12px 16px;
+    color: #333;
+    padding: 10px 15px;
     text-decoration: none;
     display: block;
+    font-size: 13px;
 }
 
 .dropdown-list a:hover {
-    background-color: #f1f1f1;
+    background-color: #f8f9fa;
+    color: #981D87;
 }
 
-section {
-    border: 2px solid red;
-    height: 100vh;
-}
-
-.carousel-container {
-    border: 2px solid red;
+.hero-section {
     width: 100%;
-    max-height: fit-content;
+    background-color: #fff;
+}
+
+.custom-slide-height {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
-    /* Hides default scrollbars if desired */
 }
 
 .carousel-slide1 {
-    background-image: url(https://wemabank.com/assets/hero-background-NkSVHum_.png);
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    /* justify-content: space-between; */
+    background-image: url('https://wemabank.com/assets/hero-background-NkSVHum_.png');
+    background-size: cover;
     justify-content: space-evenly;
-    align-items: center;
 }
 
-.carousel-slide2 {
-    background-color: white;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.carousel-slide2 { 
+    background-color: #fff; 
 }
-
 
 .carousel-slide3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(https://wemabank.com/assets/bg-wk-lUXns.png);
+    background-image: url('https://wemabank.com/assets/bg-wk-lUXns.png');
+    background-size: cover;
 }
 
 .carousel-slide4 {
-    background-color: white;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 15vw;
-    padding-right: 10vw;
-    height: 60vh;
+    padding: 0 10%;
 }
 
 .carousel-slide5 {
-    background-image: linear-gradient(to right, rgb(126, 28, 126) 60%, purple 40%);
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 8.9vw;
-    padding-right: 10vw;
+    background: linear-gradient(to right, rgb(126, 28, 126) 60%, purple 40%);
+    padding: 0 10%;
 }
 
 .slide5-text {
-    height: 60vh;
-    width: 60%;
     color: white;
-    padding-top: 12%;
+    flex: 1;
 }
 
-.slide5-text .p-header {
+.p-header {
     font-family: "Inter Tight", sans-serif;
-    font-size: 56px;
+    font-size: clamp(32px, 5vw, 56px);
     font-weight: 600;
-    line-height: 59.2px;
+    line-height: 1.1;
 }
 
-.slide5-text .p2-header {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-
-}
-
-.slide5-text>button {
-    padding: 16px 20px;
-    color: purple;
+.slide5-text button {
+    padding: 12px 24px;
     background-color: white;
-    font-size: 16px;
-    font-weight: 400;
+    color: purple;
     border-radius: 50px;
     border: none;
-
+    margin-top: 20px;
 }
 
-.slide5-img {
-    margin-left: -330px;
-    display: flex;
-    justify-content: flex-start;
-    text-align: center;
-    gap: 2rem;
-
+.slide1-image2-div { 
+    margin-top: 50px; 
 }
 
-.slide3-image2 {
-    margin-left: -60px;
-}
-
-/* .slide1-image1-div {
-    position: absolute;
-   
-} */
-.slide1-image2-div {
-    margin-top: 120px;
-    margin-left: -25px;
-}
-
-/* .slide-image3-div {
-    position: absolute;
-    margin-left: -250px;
-} */
-
-.slide2-image1 {
-    padding-top: 30px;
-}
-
-.slide2-image2 {
-    margin-left: -50px;
-    padding-bottom: 25px;
-
-
-}
-
-/* .carousel-track {
-    display: flex;
-    Lines up items horizontally overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    Snaps to items scroll-behavior: smooth;
-    Enables smooth scrolling gap: 10px;
-    Space between cards padding: 10px;
-}
-
-.carousel-slide {
-    flex: 0 0 80%;
-    /* Each card takes up 80% width of the container */
-scroll-snap-align: center;
-/* Snaps to the center of each item */
-
-/* Styling to make them visible */
-height: 200px;
-background-color: #ddd;
-border-radius: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 2em;
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
 }
 
 
-
-/* --- MEDIA QUERIES --- */
-
-/* For smaller laptops */
-@media (max-width: 1100px) {
-    .menulist {
-        gap: 0.8rem;
-    }
-
-    .anchors {
-        font-size: 12px;
-    }
-}
-
-/* For Mobile Devices */
-@media (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-    }
-
-    .nav-menulist {
-        display: none;
-    }
-
-    /* Hide top links on mobile */
-
-    .nav2 {
-        overflow-x: auto;
-        /* Allow swiping the bottom menu */
-        white-space: nowrap;
-        padding: 10px;
-    }
-
-    .nav2 .menulist {
-        justify-content: flex-start;
-    }
-
-    .carousel-slide1 {
-        flex-direction: column;
-        padding: 50px 20px;
-    }
-
-    .slide1-image2 {
-        max-width: 200px;
-    }
-
-    .dropdown-list {
-        position: static;
-        /* Dropdowns stack vertically on mobile */
-        width: 100%;
-        box-shadow: none;
-    }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    padding: 20px;
 }
