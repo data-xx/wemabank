@@ -164,6 +164,7 @@ body {
 
 .img5 {
     margin-right: 10vw;
+
 }
 
 .custom-slide3 {
@@ -234,6 +235,11 @@ body {
 
 }
 
+.img10 {
+    margin-bottom: 60px;
+
+}
+
 .img11 {
     width: 750px;
     position: relative;
@@ -288,7 +294,7 @@ body {
     margin-bottom: 100px;
 }
 
-.text-img-div9>button {
+.text-img-div9 > button {
 
     padding: 16px 12px;
     color: purple;
@@ -299,7 +305,29 @@ body {
 
 .custom-slide10 {
     background-color: #d4d4d4;
-    
-   
-  
+
 }
+
+.text-img-div10 {
+    color: black;
+    margin-bottom: 100px;
+}
+
+.img15 {
+    border: 2px solid red;
+    margin-left: 150px;
+
+}
+
+.button-10  {
+
+    padding: 16px 12px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    background-color: purple;
+    text-decoration: none;
+    
+
+}
+
