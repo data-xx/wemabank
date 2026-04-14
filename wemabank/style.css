@@ -218,7 +218,7 @@ body {
 }
 
 .text-img-div>button {
-    padding: 12px 24px;
+    padding: 16px 12px;
     color: purple;
     border-radius: 50px;
     border: none;
@@ -257,4 +257,49 @@ body {
 .custom-slide7 {
     background-image: linear-gradient(to right, rgb(186, 52, 131), #d6335d);
 }
+
+.custom-slide8 {
+    background-image: linear-gradient(to right, #3abead, rgb(105, 111, 154), purple);
+    -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+
+}
+
+.custom-slide9 {
+    background-image: linear-gradient(to right, purple, purple);
+
+}
+
+.img13 {
+    height: 600px;
+    margin-left: 50px;
+}
+
+.img14 {
+    margin-left: 25px;
+    margin-bottom: 150px;
+    width: 800px;
+    height: 600px;
+
+}
+
+.text-img-div9 {
+    color: white;
+    margin-bottom: 100px;
+}
+
+.text-img-div9>button {
+
+    padding: 16px 12px;
+    color: purple;
+    border-radius: 50px;
+    border: none;
+
+}
+
+.custom-slide10 {
+    background-color: #d4d4d4;
+    
    
+  
+}
