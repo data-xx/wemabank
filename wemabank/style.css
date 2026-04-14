@@ -316,41 +316,42 @@ body {
 
 .img15 {
     margin-left: 50px;
-    
+
 
 }
 
 .button-10 {
-
     padding: 16px 12px;
     color: white;
     border-radius: 50px;
     border: none;
     background-color: purple;
     text-decoration: none;
-
-
 }
 
 .div-news-marquee {
-    /* border: 2px solid red; */
     width: 100%;
     height: 44px;
     background-color: purple;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-
+    align-items: center;
+    overflow: hidden;
 }
 
 .news-div {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 73.8px;
-    height: 44px;
+    width: 80px;
+    height: 100%;
     background-color: #ec49de;
-    
-   
-    
+    flex-shrink: 0;
+}
+
+marquee {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
 }
