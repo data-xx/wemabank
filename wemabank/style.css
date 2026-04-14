@@ -206,7 +206,7 @@ body {
     font-size: 56px;
     line-height: 59.2px;
     font-weight: 600;
-}  
+}
 
 .p2-header {
     font-size: 14px;
@@ -217,9 +217,43 @@ body {
 
 }
 
-.text-img-div > button {
+.text-img-div>button {
     padding: 12px 24px;
     color: purple;
     border-radius: 50px;
     border: none;
+}
+
+.custom-slide6 {
+    background-color: white;
+    height: 600px;
+}
+
+.custom-slide6-div {
+    margin-top: 70px;
+
+}
+
+.img11 {
+    width: 750px;
+    position: relative;
+    top: 25px;
+    -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
+
+.button-2 {
+    padding: 12px 24px;
+    color: white;
+    background-color: purple;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    border-radius: 50px;
+    border: none;
+    font-style: normal;
+}
+
+.custom-slide7 {
+    background-image: linear-gradient(to right, rgb(186,52,131), #d6335d);
 }
