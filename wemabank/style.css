@@ -372,7 +372,7 @@ marquee {
 }
 
 .parent-container {
-    border: 2px solid red;
+
     width: 1280px;
     height: 222px;
     margin: auto;
@@ -387,7 +387,7 @@ marquee {
 
 
 .item {
-    border: 2px thin rgb(174, 170, 170);
+    border: 1px thin #F6F6F6;
     background-color: white;
     width: 189.336px;
     height: 110px;
@@ -424,7 +424,7 @@ marquee {
 }
 
 .init {
-    border: 1px solid green;
+
     width: 171.336px;
     height: 69px;
     display: flex;
@@ -456,17 +456,21 @@ marquee {
 
 
 @media (max-width: 1200px) {
-    .nav, .nav2, .parent-container {
+
+    .nav,
+    .nav2,
+    .parent-container {
         max-width: 95%;
     }
 
     .p-header {
-        font-size: 45px; 
+        font-size: 45px;
         line-height: 50px;
     }
 
-    .img11, .img14 {
-        width: 100%; 
+    .img11,
+    .img14 {
+        width: 100%;
         height: auto;
     }
 }
@@ -484,11 +488,13 @@ marquee {
     }
 
     .carousel-item {
-        height: auto; 
+        height: auto;
         min-height: 500px;
     }
 
-    .img10, .img13, .img15 {
+    .img10,
+    .img13,
+    .img15 {
         margin-left: 0;
         margin-top: 20px;
         max-width: 80%;
@@ -537,7 +543,14 @@ marquee {
         justify-content: center;
     }
 
-    .img1, .img2, .img3, .img4, .img5, .img6, .img8, .img9 {
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img8,
+    .img9 {
         margin: 10px 0 !important;
         max-width: 90%;
         height: auto;
@@ -546,12 +559,12 @@ marquee {
 
     .parent-container {
         display: grid;
-        grid-template-columns: 1fr 1fr; 
+        grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
 
     .item {
-        width: 100%; 
+        width: 100%;
     }
 }
 
@@ -565,7 +578,7 @@ marquee {
         grid-template-columns: 1fr;
     }
 
-    .nav > button {
+    .nav>button {
         padding: 6px 10px;
         font-size: 12px;
     }
