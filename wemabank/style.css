@@ -378,8 +378,6 @@ marquee {
     margin: auto;
     position: relative;
     padding: 56px 32px;
-    /* padding-top: 3.5rem;
-    padding-bottom: 3.5rem; */
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -397,12 +395,10 @@ marquee {
     padding-bottom: 20px;
     padding-left: 8px;
     padding-right: 8px;
-
-   
     display: flex;
     justify-content: center;
     align-items: center;
-    tab-size: 4;
+   
 }
 
 .init {
