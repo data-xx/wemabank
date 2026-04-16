@@ -6,11 +6,13 @@
 }
 
 body {
+
     overflow-x: hidden;
 }
 
 .nav,
 .nav2 {
+
     width: 100%;
     max-width: 1260px;
     margin: 0 auto;
@@ -21,11 +23,13 @@ body {
 }
 
 .nav img {
+
     width: 174.53px;
     height: 32px;
 }
 
 .menulist {
+
     display: flex;
     list-style: none;
     gap: 1.2rem;
@@ -33,12 +37,14 @@ body {
 }
 
 .anchors {
+
     color: #565D77;
     text-decoration: none;
     font-size: 14px;
 }
 
 .nav2-menulist {
+
     display: flex;
     align-items: center;
     width: 100%;
@@ -46,12 +52,14 @@ body {
 }
 
 .nav2-menulist li:hover {
+
     color: #981D87;
     text-decoration: underline;
     cursor: pointer;
 }
 
 .nav>button {
+
     background-color: #981D87;
     color: white;
     border-radius: 50px;
@@ -61,6 +69,7 @@ body {
 }
 
 .first-anchor {
+
     color: white;
     text-decoration: none;
     display: flex;
@@ -69,6 +78,7 @@ body {
 }
 
 .search-div {
+
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -84,11 +94,13 @@ body {
 }
 
 .dropdown {
+
     position: relative;
     display: inline-block;
 }
 
 .dropdown-list {
+
     display: none;
     position: absolute;
     background-color: #ffffff;
@@ -99,10 +111,12 @@ body {
 }
 
 .dropdown:hover .dropdown-list {
+
     display: block;
 }
 
 .dropdown-list a {
+
     color: #333;
     padding: 10px 15px;
     text-decoration: none;
@@ -111,21 +125,28 @@ body {
 }
 
 .dropdown-list a:hover {
+
     background-color: #f8f9fa;
     color: #981D87;
 }
 
 .hero-section {
+
     width: 100%;
     background-color: #fff;
 }
 
-.carousel-inner {
-    /* border: 2px solid red; */
+
+.hero-section .carousel-indicators>button {
+
+    width: 5.6px;
+    height: 5.6px;
+    border-radius: 50%;
 }
 
 
 .carousel-item {
+
     height: 600px;
     width: 100%;
     position: relative;
@@ -135,30 +156,36 @@ body {
 }
 
 .custom-slide {
+
     background-image: url(https://wemabank.com/assets/hero-background-NkSVHum_.png);
 
 }
 
 .overlay-images {
+
     position: relative;
     width: 100%;
     height: 100%;
 }
 
 .img1 {
+
     margin-left: 3vw;
 }
 
 .img2 {
+
     margin-top: 50px;
 }
 
 
 .custom-slide2 {
+
     background-color: white;
 }
 
 .img4 {
+
     margin-left: 10vw;
 }
 
@@ -168,6 +195,7 @@ body {
 }
 
 .custom-slide3 {
+
     background-image: url(https://wemabank.com/assets/bg-wk-lUXns.png);
 }
 
@@ -188,6 +216,7 @@ body {
 }
 
 .custom-slide5 {
+
     background-image: linear-gradient(to right, rgb(129, 47, 129) 70%, purple 30%);
 }
 
@@ -203,6 +232,7 @@ body {
 }
 
 .p-header {
+
     font-family: "Inter Tight", sans-serif;
     font-size: 56px;
     line-height: 59.2px;
@@ -210,6 +240,7 @@ body {
 }
 
 .p2-header {
+
     font-size: 14px;
     line-height: 15px;
     font-weight: 200;
@@ -219,6 +250,7 @@ body {
 }
 
 .text-img-div>button {
+
     padding: 16px 12px;
     color: purple;
     border-radius: 50px;
@@ -226,21 +258,25 @@ body {
 }
 
 .custom-slide6 {
+
     background-color: white;
     height: 600px;
 }
 
 .custom-slide6-div {
+
     margin-top: 70px;
 
 }
 
 .img10 {
+
     margin-bottom: 60px;
 
 }
 
 .img11 {
+
     width: 750px;
     position: relative;
     top: 25px;
@@ -249,6 +285,7 @@ body {
 }
 
 .button-2 {
+
     padding: 12px 24px;
     color: white;
     background-color: purple;
@@ -261,10 +298,12 @@ body {
 }
 
 .custom-slide7 {
+
     background-image: linear-gradient(to right, rgb(186, 52, 131), #d6335d);
 }
 
 .custom-slide8 {
+
     background-image: linear-gradient(to right, #3abead, rgb(105, 111, 154), purple);
     -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
     mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
@@ -272,16 +311,19 @@ body {
 }
 
 .custom-slide9 {
+
     background-image: linear-gradient(to right, purple, purple);
 
 }
 
 .img13 {
+
     height: 600px;
     margin-left: 50px;
 }
 
 .img14 {
+
     margin-left: 25px;
     margin-bottom: 150px;
     width: 800px;
@@ -290,6 +332,7 @@ body {
 }
 
 .text-img-div9 {
+
     color: white;
     margin-bottom: 100px;
 }
@@ -304,23 +347,27 @@ body {
 }
 
 .custom-slide10 {
+
     background-color: #d4d4d4;
 
 }
 
 .text-img-div10 {
+
     color: black;
     margin-bottom: 100px;
     margin-left: 5vw;
 }
 
 .img15 {
+
     margin-left: 50px;
 
 
 }
 
 .button-10 {
+
     padding: 16px 12px;
     color: white;
     border-radius: 50px;
@@ -330,6 +377,7 @@ body {
 }
 
 .div-news-marquee {
+
     width: 100%;
     height: 44px;
     background-color: purple;
@@ -339,6 +387,7 @@ body {
 }
 
 .news-div {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -349,6 +398,7 @@ body {
 }
 
 marquee {
+
     height: 100%;
     display: flex;
     align-items: center;
@@ -359,7 +409,7 @@ marquee {
 }
 
 .section-2 {
-    border: 2px solid red;
+
     width: 100%;
     height: 222px;
     display: flex;
@@ -387,6 +437,7 @@ marquee {
 
 
 .item {
+
     border: 1px thin #F6F6F6;
     background-color: white;
     width: 189.336px;
@@ -404,12 +455,14 @@ marquee {
 }
 
 .item:hover {
+
     transform: translateY(20px);
     animation: UpDown 0.4s ease-in-out;
 
 }
 
 @keyframes UpDown {
+
     0% {
         transform: translateY(0);
     }
@@ -435,12 +488,14 @@ marquee {
 }
 
 .init-img {
+
     width: 56px;
     height: 40px;
 
 }
 
 .init-p {
+
     font-family: "Inter Tight", sans-serif;
     width: 100px;
     height: 20px;
@@ -477,6 +532,7 @@ marquee {
 
 
 @media (max-width: 991px) {
+
     .nav2 {
         display: none;
     }
@@ -513,6 +569,7 @@ marquee {
 
 
 @media (max-width: 767px) {
+
     .nav {
         padding: 10px 15px;
     }
@@ -583,3 +640,49 @@ marquee {
         font-size: 12px;
     }
 }
+
+.section-3 {
+
+    border: 2px solid red;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+
+
+}
+
+
+.section-3 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-3-div {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    width: 1216px;
+    height: 260px;
+    
+
+}
+
+.s3-div-text {
+    border: 2px solid red;
+}
+
+.section-3-img {
+
+    border: 2px solid red;
+   
+
+
+}
+
