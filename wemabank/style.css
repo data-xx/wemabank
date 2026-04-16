@@ -659,6 +659,7 @@ marquee {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 
@@ -667,22 +668,21 @@ marquee {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
     width: 1216px;
     height: 260px;
-    
 
 }
 
 .s3-div-text {
+    
     border: 2px solid red;
 }
 
 .section-3-img {
 
     border: 2px solid red;
-   
-
+    margin-top: -25px;
+    margin-right: -50px;
+    position: sticky;
 
 }
-
