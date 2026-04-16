@@ -623,6 +623,7 @@ marquee {
     .item {
         width: 100%;
     }
+
 }
 
 
@@ -643,23 +644,14 @@ marquee {
 
 .section-3 {
 
-    border: 2px solid red;
-    position: relative;
     width: 100%;
     height: auto;
-    margin: auto;
-
-
-
-}
-
-
-.section-3 {
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+
 }
 
 
@@ -673,16 +665,76 @@ marquee {
 
 }
 
-.s3-div-text {
-    
-    border: 2px solid red;
-}
-
 .section-3-img {
 
-    border: 2px solid red;
     margin-top: -25px;
     margin-right: -50px;
     position: sticky;
 
+}
+
+
+.s3-h3 {
+    font-size: 16px;
+    color: purple;
+
+}
+
+.s3-h2 {
+
+    margin: 8px 0px 0px;
+    font-size: 30px;
+    font-family: "Inter Tight", sans-serif;
+    height: 36px;
+
+}
+
+.s3-p {
+
+    margin: 8px 0px 0px;
+    font-size: 14px;
+    color: #737373;
+    width: 586px;
+    height: 60px;
+
+}
+
+.section-4 {
+    border: 2px solid red;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section4-container {
+
+    border: 2px solid red;
+    width: 1216px;
+    height: 764px;
+    position: relative;
+
+}
+
+.section4-inner-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4-inner-div2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+
+.inner-div {
+    border: 2px solid pink;
+    width: 386.66px;
+    height: 352px;
+    background-color: #fff4ff;
 }
