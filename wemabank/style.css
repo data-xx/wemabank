@@ -714,7 +714,7 @@ marquee {
 
     border: 2px solid red;
     width: 1216px;
-    height: 764px;
+    height: 744px;
     position: relative;
 
 }
@@ -736,5 +736,58 @@ marquee {
     border: 2px solid pink;
     width: 386.66px;
     height: 352px;
+    padding: 48px 24px;
     background-color: #fff4ff;
+}
+
+.inner1 {
+    border: 2px solid blue;
+    width: 338.66px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img16 {
+
+    width: 119.99px;
+    height: 133.98px;
+    margin-top: 38px;
+}
+.img17 {
+
+    width: 120px;
+    height: 92px;
+}
+
+.img18 {
+
+    width: 119.99px;
+    height: 88.31px;
+}
+
+.img19 {
+    width: 134px;
+    height: 115px;
+    margin-top: 25px;
+}
+
+.section4-h3 {
+
+    display: block;
+    height: 28px;
+    font-size: 20px;
+    font-family: "Inter Tight", sans-serif;
+    margin: 36px 0px 0px;
+    font-weight: bold;
+    color: #2E323D;
+}
+
+.inner2 > p {
+
+    border: 2px solid red;
+    height: 60px;
+    margin-top: 8px;
 }
