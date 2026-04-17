@@ -700,7 +700,7 @@ marquee {
 }
 
 .section-4 {
-    border: 2px solid red;
+   
     width: 100%;
     height: auto;
     margin: auto;
@@ -712,7 +712,6 @@ marquee {
 
 .section4-container {
 
-    border: 2px solid red;
     width: 1216px;
     height: 744px;
     position: relative;
@@ -720,11 +719,13 @@ marquee {
 }
 
 .section4-inner-div {
+
     display: flex;
     justify-content: space-between;
 }
 
 .section4-inner-div2 {
+
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
@@ -733,15 +734,25 @@ marquee {
 
 
 .inner-div {
-    border: 2px solid pink;
+   
     width: 386.66px;
     height: 352px;
     padding: 48px 24px;
     background-color: #fff4ff;
+    transition: transform 0.3s ease-in-out;
+    
 }
 
+
+.inner-div:hover {
+
+    transform: translateY(20px);
+    animation: UpDown 0.8s ease-in-out;
+}
+
+
 .inner1 {
-    border: 2px solid blue;
+   
     width: 338.66px;
     height: 92px;
     display: flex;
@@ -756,6 +767,7 @@ marquee {
     height: 133.98px;
     margin-top: 38px;
 }
+
 .img17 {
 
     width: 120px;
@@ -787,7 +799,29 @@ marquee {
 
 .inner2 > p {
 
-    border: 2px solid red;
     height: 60px;
     margin-top: 8px;
+    font-size: 13px;
+    color: #737373;
+    width: 340px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.get-started {
+
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.get-started:hover {
+
+    color: purple;
+}
+
+.inner-div > a {
+    text-decoration: none !important;
+    
 }
