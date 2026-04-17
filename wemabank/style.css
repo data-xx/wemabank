@@ -700,7 +700,7 @@ marquee {
 }
 
 .section-4 {
-   
+
     width: 100%;
     height: auto;
     margin: auto;
@@ -734,13 +734,13 @@ marquee {
 
 
 .inner-div {
-   
+
     width: 386.66px;
     height: 352px;
     padding: 48px 24px;
     background-color: #fff4ff;
     transition: transform 0.3s ease-in-out;
-    
+
 }
 
 
@@ -752,7 +752,7 @@ marquee {
 
 
 .inner1 {
-   
+
     width: 338.66px;
     height: 92px;
     display: flex;
@@ -793,11 +793,11 @@ marquee {
     font-size: 20px;
     font-family: "Inter Tight", sans-serif;
     margin: 36px 0px 0px;
-    font-weight: bold;
+    font-weight: 600;
     color: #2E323D;
 }
 
-.inner2 > p {
+.inner2>p {
 
     height: 60px;
     margin-top: 8px;
@@ -821,7 +821,7 @@ marquee {
     color: purple;
 }
 
-.inner-div > a {
+.inner-div>a {
     text-decoration: none !important;
-    
+
 }
