@@ -823,7 +823,7 @@ marquee {
     color: purple;
 }
 
-.inner-div > a {
+.inner-div>a {
 
     text-decoration: none !important;
 
@@ -835,7 +835,7 @@ marquee {
     height: 600px;
 }
 
-.section-5 > img {
+.section-5>img {
 
     margin-left: 70px;
     position: relative;
@@ -862,10 +862,10 @@ marquee {
     width: 658.29px;
     height: 300px;
     margin: 0px 0px 32px 40px;
-    
+
 }
 
-.section5-indiv > img {
+.section5-indiv>img {
 
     width: 44px;
     height: 32px;
@@ -874,17 +874,17 @@ marquee {
 
 
 
-.section5-indiv > h2 {
+.section5-indiv>h2 {
 
     margin: 12px 0px 0px;
     font-size: 16px;
     height: 24px;
     color: purple;
     font-weight: 600;
-  
+
 }
 
-.section5-indiv > h3 {
+.section5-indiv>h3 {
 
     margin: 12px 0px 0px;
     font-size: 24px;
@@ -892,7 +892,7 @@ marquee {
     font-weight: 500;
 }
 
-.section5-indiv > p {
+.section5-indiv>p {
 
     margin: 12px 0px 0px;
     font-size: 14px;
@@ -900,7 +900,7 @@ marquee {
     color: #737373;
 }
 
-.section5-indiv > button {
+.section5-indiv>button {
 
     width: 200px;
     height: 56px;
@@ -914,7 +914,7 @@ marquee {
 
 }
 
-.section5-indiv > button a {
+.section5-indiv>button a {
 
     text-decoration: none !important;
 }
@@ -924,24 +924,20 @@ marquee {
     top: 125px;
     left: 920px;
     position: absolute;
-    
+
 }
 
-.section-6 {
-
-    /* display: flex;
-    justify-content: baseline;
-    align-items: center; */
-}
 .section-6-div {
 
-    border: 1px solid red;
     width: 1216px;
     height: 210px;
     margin: 40px 0px 80px;
     position: relative;
     margin-top: -240px;
     margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -952,3 +948,58 @@ marquee {
     position: sticky;
 }
 
+.section6-inner {
+
+    padding: 24px;
+    color: #ffffff;
+    border: 2px solid #E5E5E5;
+    width: 397.34px;
+    height: 210px;
+    background-color: white;
+    background-repeat: repeat;
+
+}
+
+.s6-img {
+
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4FF;
+    border-radius: 50%;
+    
+
+}
+
+.s6-img1 {
+
+    width: 36.3px;
+    height: 26px;
+    
+}
+
+.s6-img2 {
+
+    width: 46.82px;
+    height: 46px;
+    
+}
+
+.s6-img3 {
+
+    width: 56px;
+    height: 57px;
+  
+}
+
+.section6-inner > h2 {
+
+    height: 28px;
+    font-size: 20px;
+    color: black;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+
+}
