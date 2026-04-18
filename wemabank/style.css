@@ -781,6 +781,7 @@ marquee {
 }
 
 .img19 {
+
     width: 134px;
     height: 115px;
     margin-top: 25px;
@@ -821,7 +822,101 @@ marquee {
     color: purple;
 }
 
-.inner-div>a {
+.inner-div > a {
+
     text-decoration: none !important;
 
+}
+
+.section-5 {
+
+    border: 2px solid red;
+    width: 100%;
+    height: 600px;
+}
+
+.section-5 > img {
+
+    margin-left: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.section-5-div {
+
+    width: 1216px;
+    border: 1px solid black;
+    height: 449.08px;
+    z-index: 2;
+    margin-top: -70px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 250px;
+    padding: 8px;
+
+}
+
+.section5-indiv {
+
+    border: 1px solid red;
+    width: 658.29px;
+    height: 300px;
+    margin: 0px 0px 32px 40px;
+    
+}
+
+.section5-indiv > img {
+
+    width: 44px;
+    height: 32px;
+
+}
+
+
+
+.section5-indiv > h2 {
+
+    margin: 12px 0px 0px;
+    font-size: 16px;
+    height: 24px;
+    color: purple;
+    font-weight: 600;
+  
+}
+
+.section5-indiv > h3 {
+
+    margin: 12px 0px 0px;
+    font-size: 24px;
+    height: 32px;
+    font-weight: 500;
+}
+
+.section5-indiv > p {
+
+    margin: 12px 0px 0px;
+    font-size: 14px;
+    height: 40px;
+    color: #737373;
+}
+
+.section5-indiv > button {
+
+    width: 200px;
+    height: 56px;
+    color: purple;
+    padding: 16px;
+    margin: 40px 0px;
+    background-color: purple;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+
+}
+
+.section5-indiv > button a {
+
+    text-decoration: none !important;
 }
