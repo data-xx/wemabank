@@ -952,11 +952,12 @@ marquee {
 
     padding: 24px;
     color: #ffffff;
-    border: 2px solid #E5E5E5;
+    border: 1px solid #E5E5E5;
     width: 397.34px;
     height: 210px;
     background-color: white;
     background-repeat: repeat;
+    transition: transform 0.3s ease-in-out;
 
 }
 
@@ -969,7 +970,7 @@ marquee {
     align-items: center;
     background-color: #FFF4FF;
     border-radius: 50%;
-    
+
 
 }
 
@@ -977,29 +978,69 @@ marquee {
 
     width: 36.3px;
     height: 26px;
-    
+
 }
 
 .s6-img2 {
 
     width: 46.82px;
     height: 46px;
-    
+
 }
 
 .s6-img3 {
 
     width: 56px;
     height: 57px;
-  
+
 }
 
-.section6-inner > h2 {
+.section6-inner>h2 {
 
     height: 28px;
     font-size: 20px;
     color: black;
     font-family: "Inter Tight", sans-serif;
     font-weight: 500;
+
+}
+
+.section6-inner > p {
+
+    width: 347.34px;
+    height: 60px;
+    font-size: 14px;
+    margin: 12px 0px 0px;
+    color: #737373;
+
+}
+
+.section6-inner:hover {
+
+    transform: translateY(20px);
+    animation: UpDown 0.4s ease-in-out;
+
+}
+
+.section-7 {
+
+    border: 2px solid red;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-7-div {
+
+    border: 2px solid red;
+    width: 1216px;
+    height: 500px;
+}
+
+
+.section7-init {
+
 
 }
