@@ -848,7 +848,7 @@ marquee {
     border: 1px solid black;
     height: 449.08px;
     z-index: 2;
-    margin-top: -70px;
+    margin-top: -180px;
     position: relative;
     display: flex;
     justify-content: flex-start;
@@ -919,4 +919,12 @@ marquee {
 .section5-indiv > button a {
 
     text-decoration: none !important;
+}
+
+.bg-img {
+
+    margin-top: 120px;
+    left: 920px;
+    position: absolute;
+    
 }
