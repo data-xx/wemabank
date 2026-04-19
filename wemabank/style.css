@@ -892,31 +892,53 @@ marquee {
     font-weight: 500;
 }
 
-.section5-indiv>p {
-
-    margin: 12px 0px 0px;
-    font-size: 14px;
-    height: 40px;
-    color: #737373;
-}
-
-.section5-indiv>button {
-
-    width: 200px;
-    height: 56px;
-    color: purple;
-    padding: 16px;
-    margin: 40px 0px;
-    background-color: purple;
-    border-radius: 50px;
-    border: none;
-    text-decoration: none;
-
-}
 
 .section5-indiv>button a {
 
     text-decoration: none !important;
+}
+
+.section5-indiv > button {
+
+    width: 200px;
+    height: 56px;
+    background-color: purple;
+    border-radius: 50px;
+    border: 1px solid purple;
+    margin: 40px 0px;
+    padding: 0; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.section5-indiv > button a p {
+
+    margin: 0;
+    transition: color 0.3s ease-out;
+}
+
+.section5-indiv > button i {
+
+    margin-left: 8px;
+    transition: transform 0.3s ease-in-out; 
+
+}
+
+.section5-indiv > button:hover {
+
+    background-color: white;
+}
+
+
+.section5-indiv > button:hover a p {
+
+    color: purple !important; 
+}
+
+
+.section5-indiv > button:hover i {
+
+    transform: translateX(8px);
 }
 
 .bg-img {
@@ -970,7 +992,6 @@ marquee {
     align-items: center;
     background-color: #FFF4FF;
     border-radius: 50%;
-
 
 }
 
@@ -1029,7 +1050,7 @@ marquee {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .section-7-div {
@@ -1037,10 +1058,104 @@ marquee {
     border: 2px solid red;
     width: 1216px;
     height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
 }
-
 
 .section7-init {
 
+    width: 588px;
+    height: 272px;
+    margin: 0px 0px 32px;
 
+}
+.section7-init > img {
+
+    width: 44px;
+    height: 32px;
+
+}
+
+.section7-init > h2 {
+
+    height: 24px;
+    font-size: 16px;
+    margin: 16px 0px 0px;
+    color: purple;
+
+}
+
+.section7-init > h3 {
+
+    height: 36px;
+    font-size: 30px;
+    margin: 16px 0px 0px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+
+}
+
+.section7-init > p {
+
+    height: 60px;
+    width: 588px;
+    margin: 16px 0px 0px;
+    color: #737373;
+    font-size: 14px;
+
+}
+
+.section7-init > button {
+
+    width: 200px;
+    height: 56px;
+    background-color: purple;
+    padding: 16px;
+    margin-top: 25px; 
+    border-radius: 50px;
+    border: 1px solid purple;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+
+.section7-init > button:hover {
+
+    background-color: white;
+}
+
+.section7-init > button a {
+
+    text-decoration: none !important;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: color 0.3s ease-out;
+}
+
+
+.section7-init > button:hover a {
+
+    color: purple;
+}
+
+
+.section7-init > button i {
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.section7-init > button:hover i {
+
+    transform: translateX(6px);
+}
+
+.section-7-div > img {
+
+    width: 421.54px;
+    height: 500px;
 }
