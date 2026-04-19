@@ -898,7 +898,7 @@ marquee {
     text-decoration: none !important;
 }
 
-.section5-indiv > button {
+.section5-indiv>button {
 
     width: 200px;
     height: 56px;
@@ -906,37 +906,37 @@ marquee {
     border-radius: 50px;
     border: 1px solid purple;
     margin: 40px 0px;
-    padding: 0; 
+    padding: 0;
     cursor: pointer;
     transition: background-color 0.3s ease-out;
 }
 
-.section5-indiv > button a p {
+.section5-indiv>button a p {
 
     margin: 0;
     transition: color 0.3s ease-out;
 }
 
-.section5-indiv > button i {
+.section5-indiv>button i {
 
     margin-left: 8px;
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s ease-in-out;
 
 }
 
-.section5-indiv > button:hover {
+.section5-indiv>button:hover {
 
     background-color: white;
 }
 
 
-.section5-indiv > button:hover a p {
+.section5-indiv>button:hover a p {
 
-    color: purple !important; 
+    color: purple !important;
 }
 
 
-.section5-indiv > button:hover i {
+.section5-indiv>button:hover i {
 
     transform: translateX(8px);
 }
@@ -1026,7 +1026,7 @@ marquee {
 
 }
 
-.section6-inner > p {
+.section6-inner>p {
 
     width: 347.34px;
     height: 60px;
@@ -1045,17 +1045,15 @@ marquee {
 
 .section-7 {
 
-    border: 2px solid red;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .section-7-div {
 
-    border: 2px solid red;
     width: 1216px;
     height: 500px;
     display: flex;
@@ -1071,14 +1069,15 @@ marquee {
     margin: 0px 0px 32px;
 
 }
-.section7-init > img {
+
+.section7-init>img {
 
     width: 44px;
     height: 32px;
 
 }
 
-.section7-init > h2 {
+.section7-init>h2 {
 
     height: 24px;
     font-size: 16px;
@@ -1087,7 +1086,7 @@ marquee {
 
 }
 
-.section7-init > h3 {
+.section7-init>h3 {
 
     height: 36px;
     font-size: 30px;
@@ -1097,7 +1096,7 @@ marquee {
 
 }
 
-.section7-init > p {
+.section7-init>p {
 
     height: 60px;
     width: 588px;
@@ -1107,13 +1106,13 @@ marquee {
 
 }
 
-.section7-init > button {
+.section7-init>button {
 
     width: 200px;
     height: 56px;
     background-color: purple;
     padding: 16px;
-    margin-top: 25px; 
+    margin-top: 25px;
     border-radius: 50px;
     border: 1px solid purple;
     cursor: pointer;
@@ -1121,12 +1120,12 @@ marquee {
 }
 
 
-.section7-init > button:hover {
+.section7-init>button:hover {
 
     background-color: white;
 }
 
-.section7-init > button a {
+.section7-init>button a {
 
     text-decoration: none !important;
     color: white;
@@ -1138,24 +1137,177 @@ marquee {
 }
 
 
-.section7-init > button:hover a {
+.section7-init>button:hover a {
 
     color: purple;
 }
 
 
-.section7-init > button i {
+.section7-init>button i {
 
     transition: transform 0.3s ease-in-out;
 }
 
-.section7-init > button:hover i {
+.section7-init>button:hover i {
 
     transform: translateX(6px);
 }
 
-.section-7-div > img {
+.section-7-div>img {
 
     width: 421.54px;
     height: 500px;
+}
+
+
+.section-8 {
+
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+
+}
+
+.section-8-div {
+
+    width: 1216px;
+    height: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8rem;
+}
+
+.section8-init {
+
+    width: 588px;
+    height: 272px;
+    margin: 0px 0px 32px;
+
+}
+
+.section8-init>img {
+
+    width: 44px;
+    height: 32px;
+
+}
+
+.section8-init>h2 {
+
+    height: 24px;
+    width: 588;
+    font-size: 16px;
+    margin: 16px 0px 0px;
+    color: purple;
+
+}
+
+.section8-init>h3 {
+
+    height: 36px;
+    font-size: 30px;
+    margin: 16px 0px 0px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    color: #2E323D;
+
+
+}
+
+.section8-init>p {
+
+    height: 60px;
+    width: 588px;
+    margin: 16px 0px 0px;
+    color: #737373;
+    font-size: 14px;
+
+}
+
+.section8-init>button {
+
+    width: 200px;
+    height: 56px;
+    background-color: purple;
+    padding: 16px;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: 1px solid purple;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+
+.section8-init>button:hover {
+
+    background-color: white;
+}
+
+.section8-init>button a {
+
+    text-decoration: none !important;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: color 0.3s ease-out;
+}
+
+
+.section8-init>button:hover a {
+
+    color: purple;
+}
+
+
+.section8-init>button i {
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.section8-init>button:hover i {
+
+    transform: translateX(6px);
+}
+
+.section-8-div>img {
+
+    width: 514px;
+    height: 450px;
+}
+
+.section-9 {
+
+    width: 100%;
+    height: 742px;
+    padding: 64px 0px;
+    background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-9-div1 {
+
+    border: 1px solid white;
+    width: 1280px;
+    height: 392px;
+    padding: 0px 32px;
+
+}
+
+.section-9-div2 {
+
+    border: 1px solid white;
+    width: 1280px;
+    height: 166px;
+    margin: 56px 0px 0px;
+    padding: 8px 32px;
 }
