@@ -1462,19 +1462,6 @@ marquee {
 
 }
 
-.section10-div2 {
-
-    border: 1px solid red;
-    width: 1280px;
-    height: 198px;
-    margin: 56px 0px 0px;
-    padding: 0px 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
 .section10-inner {
 
     width: 588px;
@@ -1614,6 +1601,21 @@ marquee {
     width: 269.67px;
     height: 80.5px;
 }
+
+.section10-div2 {
+
+    border: 1px solid red;
+    width: 1280px;
+    height: 198px;
+    margin: 56px 0px 0px;
+    padding: 0px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
 
 .section10-mini {
 
