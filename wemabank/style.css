@@ -1681,7 +1681,6 @@ marquee {
 
 .section-11 {
 
-    border: 1px solid red;
     width: 100%;
     height: 334px;
     margin: 36px 0px;
@@ -1694,7 +1693,6 @@ marquee {
 
 .section-11-div {
 
-    border: 2px solid red ;
     width: 1280px;
     height: 334px;
     padding: 8px 32px;
@@ -1724,19 +1722,21 @@ marquee {
 .s11-div {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+
 }
 
 .s11-1 {
 
-    border: 1px solid red;
 
+    border: 1px solid #E5E5E5;
     width: 320px;
     height: 214px;
     padding: 24px;
     background-color: white;
+    
 }
 
 .s11-1 > p {
@@ -1748,10 +1748,87 @@ marquee {
 
 }
 
-/* .s11-1 > h5 {
+.s11-h5 {
 
-    width: 100.44px;
+    width: 270px;
     height: 24px;
+    margin: 40px 0px 0px;
+}
 
-} */
+.s11-h5 > h5 {
 
+    width: 141.38px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 600;
+
+} 
+
+.section-12 {
+
+    width: 100%;
+    height: 432px;
+    background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-12-div {
+
+    border: 2px solid white;
+    width: 316px;
+    height: 376px;
+}
+
+.section12-mini {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+.section12-mini > h3 {
+
+    width: 109.74px;
+    height: 24px;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.section12-mini > p {
+
+    width: 121.29px;
+    height: 24px;
+    font-size: 13.5px;
+    color: #AC6CA5;
+    margin-top: 1.5px;
+
+}
+
+.section-12-div > h3 {
+
+    width: 269px;
+    height: 24px;
+    font-size: 15px;
+    color: white;
+    margin: 12px 0px 0px;
+    
+  
+}
+
+.section12-mini > button {
+
+    width: 44px;
+    height: 24px;
+    margin-top: 0%;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding-top: 0%;
+}
