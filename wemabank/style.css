@@ -1699,7 +1699,7 @@ marquee {
 
 }
 
-.section-11-div > h2 {
+.section-11-div>h2 {
 
     width: 1216px;
     height: 24px;
@@ -1708,11 +1708,11 @@ marquee {
 
 }
 
-.section-11-div > h3 {
+.section-11-div>h3 {
 
     width: 1216px;
     height: 36px;
-    font-family: "Inter Tight", sans-serif; 
+    font-family: "Inter Tight", sans-serif;
     font-size: 30px;
     margin: 16px 0px 0px;
     font-weight: 600;
@@ -1736,10 +1736,10 @@ marquee {
     height: 214px;
     padding: 24px;
     background-color: white;
-    
+
 }
 
-.s11-1 > p {
+.s11-1>p {
 
     width: 270px;
     height: 100px;
@@ -1755,14 +1755,14 @@ marquee {
     margin: 40px 0px 0px;
 }
 
-.s11-h5 > h5 {
+.s11-h5>h5 {
 
     width: 141.38px;
     height: 24px;
     font-size: 14px;
     font-weight: 600;
 
-} 
+}
 
 .section-12 {
 
@@ -1771,7 +1771,7 @@ marquee {
     background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;   
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 3.5rem;
@@ -1781,11 +1781,10 @@ marquee {
 
 .section-12-div {
 
-    border: 2px solid white;
     width: 316px;
     height: 376px;
     margin-top: 53px;
-    
+
 
 }
 
@@ -1796,10 +1795,10 @@ marquee {
     display: flex;
     justify-content: space-between;
     align-items: center;
-     
+
 }
 
-.section12-mini > h3 {
+.section12-mini>h3 {
 
     width: 109.74px;
     height: 24px;
@@ -1811,7 +1810,7 @@ marquee {
 
 }
 
-.section-12-div > h3 {
+.section-12-div>h3 {
 
     width: 269px;
     height: 24px;
@@ -1822,15 +1821,15 @@ marquee {
 
 }
 
-.section12-mini > button {
+.section12-mini>button {
 
     width: 44px;
     height: 24px;
     padding-bottom: 20px;
     border-radius: 50px;
     border: 1px solid white;
-    
-    
+
+
 }
 
 .round-button {
@@ -1842,10 +1841,10 @@ marquee {
     margin-top: 2.5px;
     margin-left: 2.5px;
     position: sticky;
-   
+
 }
 
-.section-12-div > img {
+.section-12-div>img {
 
     width: 316px;
     height: 292px;
@@ -1858,13 +1857,13 @@ marquee {
 
     width: 199px;
     height: 144px;
-    margin: 12px 0px 0px; 
+    margin: 12px 0px 0px;
     position: absolute;
     margin-top: 250px;
 
 }
 
-.s12-rightdiv > h5 {
+.s12-rightdiv>h5 {
 
     width: 199px;
     height: 48px;
@@ -1883,26 +1882,26 @@ marquee {
     border-radius: 8px;
     align-items: center;
     margin-top: 20px;
-    
+
 
 }
 
-.learn-div > p {
+.learn-div>p {
 
     width: 86.24px;
     height: 24px;
     font-size: 16px;
     font-family: "Inter Tight", sans-serif;
     color: white;
-    
+
 }
 
 .section12-2nd-div {
 
     display: flex;
     justify-content: space-between;
-    align-items: center;  
-    
+    align-items: center;
+
 }
 
 .kite {
@@ -1919,25 +1918,25 @@ marquee {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin-top: 150px;
-    
-    
+
+
 }
 
-.stores-div > img {
+.stores-div>img {
 
     width: 116.86px;
     height: 40px;
-  
-    
+
+
 }
 
 .section12-1st-div {
-   
-    border: 2px solid white;
+
+    /* border: 2px solid white; */
     margin-top: 50px;
-    
+
 }
 
 .hook-store-div {
@@ -1952,13 +1951,14 @@ marquee {
 
 
 }
+
 .star {
 
     width: 94px;
     height: 113px;
     margin-left: 400px;
     margin-top: 150px;
-   
+
 }
 
 .hook {
@@ -1966,9 +1966,6 @@ marquee {
     width: 122px;
     height: 111px;
     margin-top: 150px;
-    
-    
+
+
 }
-
-
-
