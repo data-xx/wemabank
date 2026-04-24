@@ -1970,6 +1970,7 @@ marquee {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FBFBFB;
 
 }
 
@@ -2149,6 +2150,7 @@ marquee {
     font-size: 16px;
 
 }
+
 
 .s13-3 {
 
