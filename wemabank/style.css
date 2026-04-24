@@ -1875,10 +1875,9 @@ marquee {
     width: 110px;
     height: 50px;
     border: 1px solid white;
-    padding: 12px 20px;
+    padding: 12px 12px;
     border-radius: 8px;
-    align-items: center;
-    margin-top: 20px;
+    
 
 }
 
@@ -1964,15 +1963,15 @@ marquee {
 }
 
 .section-13 {
-    
-    border: 2px solid red ;
+
+    border: 2px solid red;
     width: 100%;
     height: 1667px;
     padding: 64px 34px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .section-13-div {
@@ -1982,10 +1981,10 @@ marquee {
     height: 1539px;
     margin: 0px 163px;
     padding: 56px 32px;
-    
+
 }
 
-.section-13-div > h2 {
+.section-13-div>h2 {
 
     width: 1216px;
     height: 24px;
@@ -1993,7 +1992,7 @@ marquee {
     color: purple;
 }
 
-.section-13-div > h3 {
+.section-13-div>h3 {
 
     width: 1216px;
     height: 34px;
@@ -2006,7 +2005,7 @@ marquee {
 
 .section13-div {
 
-    border: 2px solid red;
+    border: 1px solid #E5E5E5;
     width: 1216px;
     height: 659px;
     padding: 16px;
@@ -2018,7 +2017,7 @@ marquee {
 
 }
 
-.section13-div > img {
+.section13-div>img {
 
     width: 500px;
     height: 625px;
@@ -2030,6 +2029,8 @@ marquee {
     width: 658px;
     height: 625px;
     margin: 0px 0px 0px 24px;
+    padding-top: 177px;
+    padding-bottom: 177px;
 
 }
 
@@ -2054,7 +2055,7 @@ marquee {
 
 }
 
-.s13-1 > p {
+.s13-1>p {
 
     width: 81.4px;
     height: 16px;
@@ -2062,10 +2063,10 @@ marquee {
     font-family: "Inter Tight", sans-serif;
     color: purple;
     font-weight: 500;
-    
+
 }
 
-.s13 > h4 {
+.s13>h4 {
 
     width: 100px;
     height: 20px;
@@ -2079,15 +2080,13 @@ marquee {
 
 .s13-2 {
 
-    border: 2px solid red;
-
     width: 658px;
     height: 132px;
     margin: 20px 0px 0px;
 
 }
 
-.s13-2 > h2 {
+.s13-2>h2 {
 
     width: 658px;
     height: 32px;
@@ -2098,7 +2097,7 @@ marquee {
 
 }
 
-.s13-2 > p {
+.s13-2>p {
 
     width: 658px;
     height: 80px;
@@ -2110,81 +2109,67 @@ marquee {
 
 }
 
-/* .s13-button {
+
+.s13-button {
 
     width: 150px;
     height: 58px;
     background-color: white;
-    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     margin-top: 50px;
     border-radius: 50px;
     border: 1px solid #E6E7E7;
     color: #981D87;
     font-weight: 600;
-
-} */
-
-/* .s13-button > button:hover {
-
-   background-color: purple;
-}
-
-.s13-button > button a {
-
     text-decoration: none !important;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    transition: color 0.3s ease-out;
-}
-
-
-.s13-button > button:hover a {
-
-    color: purple;
-}
-
-
-.s13-button > button i {
-
-    transition: transform 0.3s ease-in-out;
-}
-
-.s13-button > button:hover i {
-
-    transform: translateX(6px);
-} */
-
-.s13-button {
-    width: 150px;
-    height: 58px;
-    background-color: white;
-    display: flex; /* Centers the content */
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 50px;
-    border-radius: 50px;
-    border: 1px solid #E6E7E7;
-    color: #981D87; /* Initial text color */
-    font-weight: 600;
-    text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
 
-/* Hover State */
 .s13-button:hover {
+
     background-color: #981D87;
     color: white;
 }
 
-/* Icon Animation */
 .s13-button i {
+
     transition: transform 0.3s ease-in-out;
 }
 
 .s13-button:hover i {
+
     transform: translateX(6px);
+}
+
+.s13-button a {
+
+    text-decoration: none !important;
+    color: #981D87;
+    font-size: 16px;
+
+}
+
+.s13-3 {
+
+    border: 2px solid red;
+    width: 1216px;
+    height: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.s13-mini {
+    
+    border: 1px solid #E5E5E5;
+    width: 394.66px;
+    height: 620px;
+    padding: 16px;
+    background-color: white;
+
 }
