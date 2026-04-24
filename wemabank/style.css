@@ -1964,7 +1964,6 @@ marquee {
 
 .section-13 {
 
-    border: 2px solid red;
     width: 100%;
     height: 1667px;
     padding: 64px 34px;
@@ -1976,7 +1975,6 @@ marquee {
 
 .section-13-div {
 
-    border: 2px solid red;
     width: 1280px;
     height: 1539px;
     margin: 0px 163px;
@@ -2154,7 +2152,6 @@ marquee {
 
 .s13-3 {
 
-    border: 2px solid red;
     width: 1216px;
     height: 620px;
     display: flex;
@@ -2172,4 +2169,131 @@ marquee {
     padding: 16px;
     background-color: white;
 
+}
+
+.s13mini {
+
+    width: 360.66px;
+    height: 262px;
+    margin: 16px 0px 0px;
+
+}
+
+.s13-mini > img {
+
+    width: 360.66px;
+    height: 300px;
+
+}
+
+.s13mini-init {
+
+    width: 111.34px;
+    height: 36px;
+    border-radius: 50px;
+    padding: 10px 12px;
+    background-color: #FFF4FF;
+
+}
+
+.s13mini-init > p {
+
+    width: 87.34px;
+    height: 16px;
+    font-size: 12px;
+    font-family: "Inter Tight", sans-serif;
+    color: #981D87;
+    font-weight: 600;
+
+}
+
+.s13mini-init2 {
+
+    width: 105.4px;
+    height: 36px;
+    border-radius: 50px;
+    padding: 10px 12px;
+    background-color: #FFF4FF;
+
+}
+
+.s13mini-init2 > p {
+
+    width: 81.4px;
+    height: 16px;
+    font-size: 12px;
+    font-family: "Inter Tight", sans-serif;
+    color: #981D87;
+    font-weight: 600;
+
+}
+
+.s13mini-init3 {
+
+    width: 61.35px;
+    height: 36px;
+    border-radius: 50px;
+    padding: 10px 12px;
+    background-color: #FFF4FF;
+
+}
+
+.s13mini-init3 > p {
+
+    width: 37.35px;
+    height: 16px;
+    font-size: 12px;
+    color: #981D87;
+    font-weight: 600;
+
+}
+
+.s13mini-1 {
+
+    width: 360.66px;
+    height: 36px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9px;
+
+}
+
+.s13mini-1>h4 {
+
+    width: 108.2px;
+    height: 20px;
+    color: #737373;
+    font-size: 13px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: 300;
+
+}
+
+.s13mini-2 {
+
+    width: 360.66px;
+    height: 108px;
+    margin: 20px 0px 0px;
+
+}
+
+.s13mini-2 > h2 {
+
+    width: 360.66px;
+    height: 48px;
+    font-size: 16px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+
+}
+
+.s13mini-2 > p {
+
+    width: 360.66px;
+    height: 40px;
+    font-size: 14px;
+    margin: 20px 0px 0px;
+    color: #737373;
 }
