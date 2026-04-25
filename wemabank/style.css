@@ -2377,6 +2377,9 @@ footer {
     background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -2389,8 +2392,8 @@ footer {
     align-items: center;
     text-align: center;
     background-color: white;
-    margin: -16px 0px 0px;
-    padding: 12px 0px;
+    margin: 16px 0px 0px;
+    padding: 0px 0px;
 
 }
 
@@ -2400,3 +2403,105 @@ footer {
     color: purple;
 }
 
+.footer-parent {
+
+    border: 2px solid red;
+    width: 1216px;
+    height: 572px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-p1-div {
+    
+    border: 1px solid white;
+    width: 209.84px;
+    height: 572px; 
+
+}
+
+.footer-p2-div {
+
+    border: 1px solid white;
+    width: 908.84px;
+    height: 572px;
+    margin: 0px 0px 0px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-p2 {
+
+    border: 1px solid white;
+    width: 276.28px;
+    height: 572px;
+
+}
+.footer-pi-1 {
+
+    width: 209.84px;
+    height: 35px;
+    margin: 12px 0px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+   
+}
+
+.footer-pi {
+
+    width: 209.84px;
+    height: 114.4px;
+
+}
+
+.footer-pi > img {
+
+    width: 192px;
+    height: 35.8px;
+
+}
+
+.footer-pi-1 > h2 {
+
+    width: 131.59px;
+    height: 24px;
+    
+    color: white;
+    font-size: 16px;
+     
+}
+
+.footer-pi-1 > img {
+
+    width: 26px;
+    height: 35.094px;
+    margin: 0px 0px 0px 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.footer-socials {
+
+    width: 209.84px;
+    height: 20px;
+    margin: 16px 0px 0px;
+    color: white;
+    gap: 5rem;
+
+}
+
+.footer-socials > i {
+
+    width: 20px;
+    height: 20px;
+    gap: 5rem;
+    
+}
