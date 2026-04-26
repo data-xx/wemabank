@@ -455,6 +455,11 @@ marquee {
 
 }
 
+.item > a {
+
+    text-decoration: none !important;
+}
+
 .item:hover {
 
     transform: translateY(20px);
