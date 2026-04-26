@@ -2396,7 +2396,7 @@ footer {
 
 }
 
-.footer-div > p {
+.footer-div>p {
 
     font-size: 14px;
     color: purple;
@@ -2414,9 +2414,9 @@ footer {
 }
 
 .footer-p1-div {
-    
+
     width: 209.84px;
-    height: 572px; 
+    height: 572px;
 
 }
 
@@ -2437,6 +2437,7 @@ footer {
     height: 572px;
 
 }
+
 .footer-pi-1 {
 
     width: 209.84px;
@@ -2447,7 +2448,7 @@ footer {
     align-items: center;
     margin-top: 20px;
 
-   
+
 }
 
 .footer-pi {
@@ -2457,23 +2458,23 @@ footer {
 
 }
 
-.footer-pi > img {
+.footer-pi>img {
 
     width: 192px;
     height: 35.8px;
 
 }
 
-.footer-pi-1 > h2 {
+.footer-pi-1>h2 {
 
     width: 131.59px;
     height: 24px;
     color: white;
     font-size: 16px;
-     
+
 }
 
-.footer-pi-1 > img {
+.footer-pi-1>img {
 
     width: 26px;
     height: 35.094px;
@@ -2481,7 +2482,7 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
-    
+
 }
 
 .footer-socials {
@@ -2497,19 +2498,19 @@ footer {
 
 }
 
-.footer-socials > i {
+.footer-socials>i {
 
     width: 20px;
     height: 20px;
-     
+
 }
 
-.footer-socials > a {
+.footer-socials>a {
 
     color: white;
 }
 
-.footer-inner { 
+.footer-inner {
 
     width: 209.84px;
     height: 128px;
@@ -2518,7 +2519,7 @@ footer {
 
 }
 
-.footer-inner > h4 {
+.footer-inner>h4 {
 
     width: 209.84px;
     height: 20px;
@@ -2546,17 +2547,17 @@ footer {
 
     width: 209.84px;
     height: 92px;
-    
+
 }
 
-.footer-pii > p {
+.footer-pii>p {
 
     width: 220.84px;
     height: 20px;
     font-size: 12px;
     color: white;
     margin-top: 120px;
-  
+
 }
 
 .fp2-1 {
@@ -2587,14 +2588,13 @@ footer {
 
 }
 
-.fp2-menulist > p {
+.fp2-menulist>p {
 
     color: white;
     font-size: 14px;
 }
 
-.fp2-menulist > a {
+.fp2-menulist>a {
 
     text-decoration: none !important;
 }
-
