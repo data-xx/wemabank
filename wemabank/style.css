@@ -2317,7 +2317,6 @@ marquee {
 
 .section-14-div {
 
-    border: 2px solid red;
     width: 1280px;
     height: 719px;
     margin: 0px 195px;
@@ -2406,7 +2405,6 @@ footer {
 
 .footer-parent {
 
-    border: 2px solid red;
     width: 1216px;
     height: 572px;
     display: flex;
@@ -2417,7 +2415,6 @@ footer {
 
 .footer-p1-div {
     
-    border: 1px solid white;
     width: 209.84px;
     height: 572px; 
 
@@ -2425,7 +2422,6 @@ footer {
 
 .footer-p2-div {
 
-    border: 1px solid white;
     width: 908.84px;
     height: 572px;
     margin: 0px 0px 0px 48px;
@@ -2437,7 +2433,6 @@ footer {
 
 .footer-p2 {
 
-    border: 1px solid white;
     width: 276.28px;
     height: 572px;
 
@@ -2473,7 +2468,6 @@ footer {
 
     width: 131.59px;
     height: 24px;
-    
     color: white;
     font-size: 16px;
      
@@ -2508,6 +2502,11 @@ footer {
     width: 20px;
     height: 20px;
      
+}
+
+.footer-socials > a {
+
+    color: white;
 }
 
 .footer-inner { 
@@ -2554,7 +2553,7 @@ footer {
 
     width: 220.84px;
     height: 20px;
-    font-size: 13px;
+    font-size: 12px;
     color: white;
     margin-top: 120px;
   
@@ -2579,7 +2578,7 @@ footer {
 
 .fp2-menulist li {
 
-    font-size: 14px;
+    font-size: 13px;
     color: whitesmoke;
     font-weight: 100;
     margin-bottom: 5px;
@@ -2592,5 +2591,10 @@ footer {
 
     color: white;
     font-size: 14px;
+}
+
+.fp2-menulist > a {
+
+    text-decoration: none !important;
 }
 
