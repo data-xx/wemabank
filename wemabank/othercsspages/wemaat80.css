@@ -235,6 +235,17 @@ body {
     
 }
 
+.section-iii {
+
+    border: 2px solid red;
+
+    width: 100%;
+    height: 85vh;
+    background-image: url(https://wemabank.com/assets/w80-bg-IDvKZhfO.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
    
 
