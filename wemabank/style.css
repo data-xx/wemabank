@@ -455,7 +455,7 @@ marquee {
 
 }
 
-.item > a {
+.item>a {
 
     text-decoration: none !important;
 }
