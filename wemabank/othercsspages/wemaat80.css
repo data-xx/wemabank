@@ -145,8 +145,6 @@ body {
 
 .section-i-parent {
 
-    border: 1px solid red ;
-
     width: 1606px;
     height: 619px;
     display: flex;
@@ -158,11 +156,9 @@ body {
 
 .ribbon-img {
 
-    margin-top: 420px;
-    
-    margin-left: -71.5rem;
-    
-    
+    margin-top: 430px;
+    margin-left: -78.5rem;
+   
 }
 
 .section-i-parent > wematext-div {
@@ -196,7 +192,6 @@ body {
     width: 1280px;
     height: 47px;
     padding: 8px;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
