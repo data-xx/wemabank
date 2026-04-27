@@ -217,6 +217,24 @@ body {
 
 }
 
+.section-ii-side {
+
+    width: 56px;
+    height: 56px;
+    background-color: #981D87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 250px;
+    margin-top: 25px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    cursor: pointer;
+    
+    
+}
+
 
    
 
