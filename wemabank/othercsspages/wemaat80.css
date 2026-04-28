@@ -373,6 +373,22 @@ body {
 }
 
 
+.section-iv {
+
+    width: 100%;
+    height: 660px;
+}
+.section-iv-div {
+
+    width: 1280px;
+    height: 654.77px;
+    margin: 0px 195px;
+    padding: 80px 32px 40px;
+    border: 2px solid red;
+
+}
+
+
 
 
 
