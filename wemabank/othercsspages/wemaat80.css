@@ -253,8 +253,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid red;
-
+   
 }
 
 
@@ -276,7 +275,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .sect3-div2 > img {
@@ -286,45 +285,91 @@ body {
 
 }
 
-.sect3-div2 > sect3-text {
+.sect3-text {
 
     width: 620px;
     height: 340px;
     margin: 0px 0px 0px 40px;
     
+   
 }
 
-.sect3-div2 > h2 {
+.sect3-txt {
+
+    margin-top: -85px;
+}
+
+
+.sect3-txt > h2 {
 
     width: 620px;
     height: 60px;
-    font-size: 60px !important;
+    font-size: 60px;
     color: white;
+    font-weight: 700;
+    
+   
 }
 
-.sect3-div2 > sect3-p1 {
+.sect3-txt > .sect3-p1 {
 
     width: 620px;
     height: 40px;
     font-size: 14px;
+    color: white;
+    margin-top: 50px;
 
 }
 
-.sect3-div2 > sect3-p2 {
+.sect3-txt > .sect3-p2 {
 
     width: 620px;
     height: 80px;
     font-size: 14px;
     margin: 24px 0px 0px;
+    color: white;
 
 }
 
-.sect3-div2 > sect3-p3 {
+.sect3-txt > .sect3-p3 {
 
     width: 620px;
     height: 20px;
     font-size: 14px;
     margin: 24px 0px 0px;
+    color: white;
+    
+}
+
+.sect3-txt > button {
+
+    width: 175.93px;
+    height: 36px;
+    margin: 16px 0px 0px;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #780865;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    
+}
+
+.sect3-txt > button a {
+
+    text-decoration: none !important;
+    color: white;
+}
+
+.section-iii-div > p {
+
+    width: 620px;
+    height: 24px;
+    padding: 0px 0px 0px 32px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+
 }
 
 
