@@ -253,7 +253,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-   
+
 }
 
 
@@ -275,10 +275,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.sect3-div2 > img {
+.sect3-div2>img {
 
     width: 620px;
     height: 500px;
@@ -290,8 +290,8 @@ body {
     width: 620px;
     height: 340px;
     margin: 0px 0px 0px 40px;
-    
-   
+
+
 }
 
 .sect3-txt {
@@ -300,18 +300,18 @@ body {
 }
 
 
-.sect3-txt > h2 {
+.sect3-txt>h2 {
 
     width: 620px;
     height: 60px;
     font-size: 60px;
     color: white;
     font-weight: 700;
-    
-   
+
+
 }
 
-.sect3-txt > .sect3-p1 {
+.sect3-txt>.sect3-p1 {
 
     width: 620px;
     height: 40px;
@@ -321,7 +321,7 @@ body {
 
 }
 
-.sect3-txt > .sect3-p2 {
+.sect3-txt>.sect3-p2 {
 
     width: 620px;
     height: 80px;
@@ -331,17 +331,17 @@ body {
 
 }
 
-.sect3-txt > .sect3-p3 {
+.sect3-txt>.sect3-p3 {
 
     width: 620px;
     height: 20px;
     font-size: 14px;
     margin: 24px 0px 0px;
     color: white;
-    
+
 }
 
-.sect3-txt > button {
+.sect3-txt>button {
 
     width: 175.93px;
     height: 36px;
@@ -352,16 +352,16 @@ body {
     border-radius: 5px;
     border: none;
     color: white;
-    
+
 }
 
-.sect3-txt > button a {
+.sect3-txt>button a {
 
     text-decoration: none !important;
     color: white;
 }
 
-.section-iii-div > p {
+.section-iii-div>p {
 
     width: 620px;
     height: 24px;
@@ -378,6 +378,7 @@ body {
     width: 100%;
     height: 660px;
 }
+
 .section-iv-div {
 
     width: 1280px;
@@ -387,6 +388,145 @@ body {
     border: 2px solid red;
 
 }
+
+.sect4-h2>h2 {
+
+    width: 1216px;
+    height: 60px;
+    font-size: 60px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.sect4-imgs {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect4-img-left {
+
+    width: 539.82px;
+    height: 474.77px;
+    padding: 40px 0px 0px;
+
+}
+
+.sect4-img-left>img {
+
+    width: 539.82px;
+    height: 331.7px;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.sect4-imgs>img {
+
+    width: 596.18px;
+    height: 474.77px;
+    position: relative;
+}
+
+
+@media (max-width: 1024px) {
+    .section-iv {
+        height: auto;
+    }
+
+    .section-iv-div {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 60px 24px 40px;
+        box-sizing: border-box;
+    }
+
+    .sect4-h2>h2 {
+        width: 100%;
+        height: auto;
+        font-size: 42px;
+    }
+
+    .sect4-imgs {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .sect4-img-left {
+        width: 45%;
+        height: auto;
+        padding: 24px 0 0;
+    }
+
+    .sect4-img-left>img {
+        width: 100%;
+        height: auto;
+        margin-top: 24px;
+    }
+
+    .sect4-imgs>img {
+        width: 50%;
+        height: auto;
+        
+    }
+}
+
+
+@media (max-width: 768px) {
+    .section-iv-div {
+        padding: 48px 20px 32px;
+    }
+
+    .sect4-h2>h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .sect4-imgs {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .sect4-img-left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .sect4-img-left>img {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        position: static;
+       
+    }
+
+    .sect4-imgs>img {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .section-iv-div {
+        padding: 32px 16px 24px;
+    }
+
+    .sect4-h2>h2 {
+        font-size: 26px;
+    }
+
+    .sect4-imgs {
+        gap: 16px;
+    }
+}
+
 
 
 
