@@ -797,12 +797,11 @@ body {
     height: 1146px;
     padding: 56px 32px;
     border: 2px solid red;
-    
+
 }
 
 .section6-1st-div {
 
-    border: 1px solid red;
     width: 1280px;
     height: 424px;
     margin: 0px 163px;
@@ -817,21 +816,20 @@ body {
 
     width: 560px;
     height: 424px;
-    border: 1px solid red;
 
 }
 
-.section6-inner > iframe {
+.section6-inner>iframe {
 
     margin-top: 25px;
 }
 
-.section6-inner > img {
+.section6-inner>img {
 
     margin-top: 25px;
 }
 
-.section6-inner > p {
+.section6-inner>p {
 
     width: 560px;
     height: 20px;
@@ -850,10 +848,10 @@ body {
     flex-direction: row;
     align-content: center;
 
-   
+
 }
 
-.s6-inner-container > h4 {
+.s6-inner-container>h4 {
 
     width: 77.3px;
     height: 32px;
@@ -875,6 +873,125 @@ body {
     align-items: center;
 
 }
+
+.section6-div2 {
+
+    width: 1280px;
+    height: 546px;
+    margin: 64px 163px 0px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section6-inner2 {
+
+    border: 1px solid red;
+    width: 384px;
+    height: 546px;
+
+}
+
+.section6-mini-1st {
+
+    width: 384px;
+    height: 81px;
+    background-image: url(https://wemabank.com/assets/w80-articles-small-AgkaU-of.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    padding: 8px 24px;
+    background-color: #BCC0C5;
+
+}
+
+.section6-mini-2nd {
+
+    width: 384px;
+    height: 81px;
+    background-image: url(https://wemabank.com/assets/w80-updates-small-eSz78f19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 8px 24px;
+    background-color: #BCC0C5;
+
+}
+
+.section6-mini-3rd {
+
+    width: 384px;
+    height: 81px;
+    background-image: url(https://wemabank.com/assets/w80-faqs-small-6vBK8g1-.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+    background-color: #BCC0C5;
+    
+}
+
+.section6-mini-1st>img {
+
+    width: 97px;
+    height: 65px;
+}
+
+.section6-mini-1st>h2 {
+
+    width: 86.99px;
+    height: 32px;
+    font-size: 24px;
+    color: #981D87;
+    font-weight: 600;
+    margin-left: -25px;
+
+}
+
+.section6-mini-2nd>img {
+
+    width: 97px;
+    height: 65px;
+}
+
+.section6-mini-2nd>h2 {
+
+    width: 171.94px;
+    height: 32px;
+    font-size: 24px;
+    color: #981D87;
+    font-weight: 600;
+    margin-left: -25px;
+    
+
+}
+
+.section6-mini-3rd>img {
+
+    width: 97px;
+    height: 65px;
+}
+
+.section6-mini-3rd>h2 {
+
+    width: 59.23px;
+    height: 32px;
+    font-size: 24px;
+    color: #981D87;
+    font-weight: 600;
+
+}
+
 
 
 
