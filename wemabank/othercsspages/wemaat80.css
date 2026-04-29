@@ -945,6 +945,7 @@ body {
 
     width: 97px;
     height: 65px;
+    position: sticky;
 }
 
 .section6-mini-1st>h2 {
@@ -962,6 +963,7 @@ body {
 
     width: 97px;
     height: 65px;
+    position: sticky;
 }
 
 .section6-mini-2nd>h2 {
@@ -980,6 +982,7 @@ body {
 
     width: 97px;
     height: 65px;
+    position: sticky;
 }
 
 .section6-mini-3rd>h2 {
@@ -992,7 +995,71 @@ body {
 
 }
 
+.section6-mini {
 
+    width: 384px;
+    height: 441px;
+    margin: 24px 0px 0px;
+    border: 1px solid red;
+}
+
+.section6-mini > img {
+
+    width: 384px;
+    height: 165px;
+
+}
+
+.section6-mini > .section6-mini-div {
+
+    width: 384px;
+    height: 195px;
+    margin: 16px 0px 0px;
+    padding: 0px 16px;
+    
+}
+
+.section6-mini > .section6-mini-div2 {
+
+    width: 384px;
+    height: 432px;
+    margin: 24px 0px 0px;
+    padding: 24px;
+    
+}
+
+.section6-mini-div > h3 {
+
+    width: 352px;
+    height: 40px;
+    margin: 0px 0px 16px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.section6-mini-div > .section6-2ndh3 {
+
+    width: 352px;
+    height: 60px;
+    margin: 0px 0px 16px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2rem;
+   
+}
+
+.section6-mini-div > p {
+
+    width: 352px;
+    height: 100px;
+    font-size: 13px;
+    color: black;
+    
+    
+
+}
 
 
 
