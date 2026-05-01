@@ -110,7 +110,24 @@ body {
     margin: 0;
 }
 
+.home {
 
+    width: 100%;
+    max-width: 1280px;
+    height: 28px;
+    background-color: white;
+    margin: 0px 195px;
+}
+
+.home-div {
+
+    border: 1px solid red;
+
+    width: 1216px;
+    height: 20px;
+    margin: 8px 32px 0px;
+    
+}
 
 
 
