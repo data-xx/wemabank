@@ -432,7 +432,7 @@ body {
 .third-section-div {
 
     width: 1280px;
-    height: 880px;
+    height: 850px;
     margin: 0px 195px;
     padding: 40px;
     border: 2px solid red;
@@ -449,10 +449,85 @@ body {
 .third-mini-div2 {
 
     width: 1168px;
-    height: 680px;
+    height: 640px;
     border: 1px solid red;
     margin-top: 50px;
 
+}
+
+.mini-inner-div {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mini-inner-div2 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.mini-inner1 {
+
+    width: 373.33px;
+    height: 307px;
+    padding: 14px;
+    border: 1px solid red;
+    background-color: #F3F4F6;
+
+}
+
+.mini-inner2 {
+
+    width: 373.33px;
+    height: 307px;
+    padding: 14px;
+    border: 1px solid red;
+    background-color: #F3F4F6;
+
+}
+
+.mini-inner3 {
+
+    width: 373.33px;
+    height: 307px;
+    padding: 14px;
+    border: 1px solid red;
+    background-color: #F3F4F6;
+
+}
+
+.mini-inner4 {
+
+    width: 373.33px;
+    height: 307px;
+    padding: 14px;
+    border: 1px solid red;
+    background-color: #F3F4F6;
+
+}
+
+.mini-inner5 {
+
+    width: 373.33px;
+    height: 307px;
+    padding: 14px;
+    border: 1px solid red;
+    background-color: #F3F4F6;
+
+}
+
+.mini-inner6 {
+
+    width: 373.33px;
+    height: 307px;
+    padding: 14px;
+    border: 1px solid red;
+    background-color: #F3F4F6;
+    
 }
 
 
