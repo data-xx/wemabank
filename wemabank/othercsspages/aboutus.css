@@ -380,6 +380,83 @@ body {
 
 }
 
+.minor-div {
+
+    width: 554px;
+    height: 182px;
+    padding: 8px;
+    margin-top: 25px;
+
+}
+
+.minor-div > p {
+
+    width: 538px;
+    height: 28px;
+    font-size: 22px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+
+}
+
+.minor-span {
+
+    width: 538px;
+    height: 126px;
+
+}
+
+.minor-span > p {
+
+   font-size: 14px;
+   font-family: "Inter Tight", sans-serif;
+   color: #4B5563;
+
+}
+
+.minor-span2 {
+
+    width: 538px;
+    height: 124px;
+    
+}
+
+.minor-span2 > p {
+
+   font-size: 14px;
+   font-family: "Inter Tight", sans-serif;
+   color: #4B5563;
+
+}
+
+.third-section-div {
+
+    width: 1280px;
+    height: 880px;
+    margin: 0px 195px;
+    padding: 40px;
+    border: 2px solid red;
+  
+}
+
+.third-mini-div {
+
+    width: 1200px;
+    height: 80px;
+    border: 1px solid red;
+}
+
+.third-mini-div2 {
+
+    width: 1168px;
+    height: 680px;
+    border: 1px solid red;
+    margin-top: 50px;
+
+}
+
+
+
 
 
 
