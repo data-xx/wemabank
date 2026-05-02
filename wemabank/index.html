@@ -28,9 +28,15 @@
 </head>
 
 <body>
+
     <header>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+        <input type="checkbox" id="search-toggle" class="search-toggle-input">
+
         <nav class="nav">
-            <img src="./wema-images/imgi_1_wemaFull-55brX0lO.svg">
+            <img src="./wema-images/imgi_1_wemaFull-55brX0lO.svg" alt="Wema Bank">
+
             <div class="nav-menulist">
                 <ul class="menulist">
                     <a class="anchors" href="">
@@ -65,17 +71,26 @@
                     </a>
                 </ul>
             </div>
-            <button type="button">
-                <a class="first-anchor"
-                    href="https://online.alat.ng/?shortlink=alatwebsite&c=ALAT%20website&pid=SEMOLKA&source_caller=ui">
-                    <i class="fa-solid fa-bag-shopping"></i>
-                    Online Banking Login
-                </a>
-            </button>
-            </div>
 
+            <div class="nav-controls">
+                <button type="button" class="nav-cta">
+                    <a class="first-anchor" href="https://online.alat.ng/">
+                        <i class="fa-solid fa-bag-shopping btn-icon"></i>
+                        <span class="btn-full-text">Online Banking Login</span>
+                        <span class="btn-short-text">Login</span>
+                    </a>
+                </button>
+                <div class="nav-search-circle"></div>
+                <label for="nav-toggle" class="hamburger-label">
+                    <span class="bar bar-1"></span>
+                    <span class="bar bar-2"></span>
+                    <span class="bar bar-3"></span>
+                </label>
+            </div>
         </nav>
+
         <hr class="hr">
+
         <nav class="nav2">
             <div class="nav2-menulist">
                 <ul class="menulist">
@@ -84,55 +99,51 @@
                             <li class="droptext">Careers</li>
                         </a>
                         <div class="dropdown-list">
-                            <a href=""> <strong>Why join Wema Bank</strong></a>
+                            <a href=""><strong>Why join Wema Bank</strong></a>
                             <a href=""><strong>Our Recruitment Process</strong></a>
                             <a href=""><strong>Career Opportunities</strong></a>
-                            <a href=""> <strong>Purple Academy</strong></a>
+                            <a href=""><strong>Purple Academy</strong></a>
                         </div>
                     </div>
-
                     <div class="dropdown">
                         <a class="anchors" href="https://wemabank.com/investor-relations-2">
                             <li class="droptext">Investors Relations</li>
                         </a>
                         <div class="dropdown-list">
-                            <a href=""> <strong>Annual General Meeting</strong></a>
+                            <a href=""><strong>Annual General Meeting</strong></a>
                             <a href=""><strong>Corporate Governance</strong></a>
                             <a href=""><strong>Financial Information</strong></a>
-                            <a href=""> <strong>Rating Report</strong></a>
+                            <a href=""><strong>Rating Report</strong></a>
                             <a href=""><strong>Shareholder Information</strong></a>
-                            <a href=""> <strong>Events & Presentation</strong></a>
+                            <a href=""><strong>Events & Presentation</strong></a>
                         </div>
                     </div>
-
                     <div class="dropdown">
                         <a class="anchors" href="https://wemabank.com/csr">
-                            <li class="droptext">Sustainablility</li>
+                            <li class="droptext">Sustainability</li>
                         </a>
-                        <div style="min-width: 300px;" class="dropdown-list">
-                            <a href=""> <strong>Corporate Social Investment</strong></a>
-                            <a href=""><strong>Employee Engagement & Development</strong></a>
-                            <a href=""><strong>Environmnetal Footprint</strong></a>
-                            <a href=""> <strong>Partnerships</strong></a>
-                            <a href=""><strong>Governance and reporting</strong></a>
-                            <a href=""> <strong>Gallery</strong></a>
+                        <div class="dropdown-list">
+                            <a href=""><strong>Corporate Social Investment</strong></a>
+                            <a href=""><strong>Employee Engagement</strong></a>
+                            <a href=""><strong>Environmental Footprint</strong></a>
+                            <a href=""><strong>Partnerships</strong></a>
+                            <a href=""><strong>Governance and Reporting</strong></a>
+                            <a href=""><strong>Gallery</strong></a>
                         </div>
                     </div>
-
                     <div class="dropdown">
                         <a class="anchors" href="https://wemabank.com/resource-center">
                             <li class="droptext">Resource Center</li>
                         </a>
-                        <div style="min-width: 410px;" class="dropdown-list">
-                            <a href=""> <strong>Bank Verification Number - Code To Check Your BVN</strong></a>
-                            <a href=""><strong>Loan Rate Calculators - Mortage, Car Loan or Any Loan</strong></a>
+                        <div class="dropdown-list">
+                            <a href=""><strong>BVN Check</strong></a>
+                            <a href=""><strong>Loan Calculators</strong></a>
                             <a href=""><strong>Downloads</strong></a>
-                            <a href=""> <strong>Manuals</strong></a>
+                            <a href=""><strong>Manuals</strong></a>
                             <a href=""><strong>Videos</strong></a>
-                            <a href=""> <strong>FAQ</strong></a>
+                            <a href=""><strong>FAQ</strong></a>
                         </div>
                     </div>
-
                     <a class="anchors" href="https://wemabank.com/alat-evolution">
                         <li>ALAT Evolution</li>
                     </a>
@@ -143,12 +154,53 @@
                         <li>Contact Us</li>
                     </a>
                 </ul>
-                <div class="search-div">
-                    <img src="./wema-images/seach icon.svg" alt="search">
+
+                <div class="search-wrapper">
+
+                    <label for="search-toggle" class="search-icon-label">
+                        <div class="search-div">
+                            <img src="./wema-images/seach icon.svg" alt="search">
+                        </div>
+                    </label>
+
+                    <div class="search-bar-reveal">
+                        <form class="search-form" action="/search" method="get">
+                            <input type="text" name="q" class="search-input" placeholder="Quick search for anything...">
+                            <button type="submit" class="search-submit">Search</button>
+                        </form>
+                   
+                        <label for="search-toggle" class="search-close">&#x2715;</label>
+                    </div>
                 </div>
             </div>
         </nav>
 
+        <div class="mobile-drawer">
+            <div class="drawer-section">
+                <p class="drawer-label">Menu</p>
+                <a href="">Wema@80</a>
+                <a href="">About Us</a>
+                <a href="">Personal</a>
+                <a href="">Business</a>
+                <a href="https://wemabank.com/smes">SME</a>
+                <a href="https://alat.ng/">ALAT</a>
+                <a href="https://sara.wemabank.com/">SARA</a>
+                <a href="https://wemabank.com/blog">Blog</a>
+                <a href="https://wemabank.com/alat-xplore">Alat Xplore</a>
+                <a href="https://wemabank.com/shares">Shares</a>
+            </div>
+            <div class="drawer-section">
+                <p class="drawer-label">More</p>
+                <a href="https://wemabank.com/careers">Careers</a>
+                <a href="https://wemabank.com/investor-relations-2">Investor Relations</a>
+                <a href="https://wemabank.com/csr">Sustainability</a>
+                <a href="https://wemabank.com/resource-center">Resource Center</a>
+                <a href="https://wemabank.com/alat-evolution">ALAT Evolution</a>
+                <a href="https://wemabank.com/iwd">International Women's Day</a>
+                <a href="https://wemabank.com/contact-us">Contact Us</a>
+            </div>
+        </div>
+        
         <hr class="hr">
     </header>
 
