@@ -121,8 +121,6 @@ body {
 
 .home-div {
 
-    border: 1px solid red;
-
     width: 1216px;
     height: 20px;
     margin: 8px 32px 0px;
@@ -152,6 +150,12 @@ body {
 
 }
 
+.home-paragraph > a {
+
+    text-decoration: none !important;
+    color: black;
+}
+
 .aboutus-paragraph {
 
     width: 57.59px;
@@ -162,6 +166,106 @@ body {
     margin-top: 14.5px;
    
 }
+
+.first-section {
+
+    width: 100%;
+    max-width: 1280px;
+    height: 447px;
+    margin: 0px 195px;
+    padding: 0px 0px 64px;
+
+}
+
+.first-section-div {
+
+    width: 1280px;
+    height: 383px;
+    padding: 80px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-mini-div {
+
+    width: 1200px;
+    height: 303px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.mini-text {
+
+    width: 760px;
+    height: 173.2px;
+    margin-top: -130px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  
+    
+}
+
+.mini-img > img {
+
+    width: 380px;
+    height: 300px;
+
+}
+
+.mini-text-p1 {
+
+    width: 90px;
+    height: 32px;
+    background-color: #981D87;
+    padding: 4px 12px;
+    border-radius: 50px;
+    
+}
+
+.mini-text-p1 > p {
+
+    color: white;
+    font-size: 14px;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.mini-text-p2 {
+
+    width: 718.67px;
+    height: 67.2px;
+ 
+}
+
+.mini-text-p2 > p {
+
+   font-size: 48px;
+   font-family: "Inter Tight", sans-serif;
+   font-weight: 600;
+ 
+}
+
+.mini-text-p3 {
+
+    width: 760px;
+    height: 42px;
+
+}
+
+.mini-text-p3 > p {
+
+    font-size: 14px;
+    font-family: "Inter Tight", sans-serif;
+    color: #4B5563;
+   
+}
+
 
 
 
