@@ -126,8 +126,43 @@ body {
     width: 1216px;
     height: 20px;
     margin: 8px 32px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
     
 }
+
+.home-img1 {
+
+    width: 16px;
+    height: 16px;
+
+}
+
+.home-paragraph {
+
+    width: 37.35px;
+    height: 20px;
+    font-size: 14px;
+    font-family: "Inter Tight", sans-serif;
+    margin-top: 14.5px;
+
+}
+
+.aboutus-paragraph {
+
+    width: 57.59px;
+    height: 20px;
+    font-size: 14px;
+    font-family: "Inter Tight", sans-serif;
+    color: #6B7280;
+    margin-top: 14.5px;
+   
+}
+
 
 
 
@@ -504,7 +539,6 @@ footer {
         margin: 0;
     }
 }
-
 
 @media (max-width: 768px) {
     footer {
