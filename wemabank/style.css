@@ -58,7 +58,7 @@ body {
     width: 100%;
     justify-content: space-between;
     margin-left: -60px;
-    
+
 
 }
 
@@ -1718,6 +1718,13 @@ marquee {
 
 }
 
+.section-6-div>a {
+
+    text-decoration: none !important;
+
+}
+
+
 .section6-bg {
 
     margin-left: 350px;
@@ -2470,6 +2477,13 @@ marquee {
     align-items: center;
 }
 
+.section-9-div2 > a {
+
+    text-decoration: none !important;
+}
+
+
+
 .section9-child1>h2 {
 
     font-size: 16px;
@@ -2566,6 +2580,7 @@ marquee {
     height: 28px;
     font-size: 20px;
     font-weight: 600;
+    color: black;
 
 }
 
