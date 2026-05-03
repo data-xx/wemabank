@@ -23,14 +23,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.icon" type="image/x-icon">
+    <link rel="shortcut icon" href="../wema-images/wema favicon-logo.svg" type="image/x-icon">
     <title>Wema Bank | Step into the future of banking with wema bank where excellent take center stage</title>
 </head>
 
 <body>
+
     <header>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+        <input type="checkbox" id="search-toggle" class="search-toggle-input">
+
         <nav class="nav">
-            <img src="../wema-images/imgi_1_wemaFull-55brX0lO.svg">
+            <img src="../wema-images/imgi_1_wemaFull-55brX0lO.svg" alt="Wema Bank">
+
             <div class="nav-menulist">
                 <ul class="menulist">
                     <a class="anchors" href="">
@@ -65,54 +71,45 @@
                     </a>
                 </ul>
             </div>
-            <button type="button">
-                <a class="first-anchor"
-                    href="https://online.alat.ng/?shortlink=alatwebsite&c=ALAT%20website&pid=SEMOLKA&source_caller=ui">
-                    <i class="fa-solid fa-bag-shopping"></i>
-                    Online Banking Login
-                </a>
-            </button>
+
+            <div class="nav-controls">
+                <button type="button" class="nav-cta">
+                    <a class="first-anchor" href="https://online.alat.ng/">
+                        <i class="fa-solid fa-bag-shopping btn-icon"></i>
+                        <span class="btn-full-text">Online Banking Login</span>
+                        <span class="btn-short-text">Login</span>
+                    </a>
+                </button>
+                <div class="nav-search-circle"></div>
+                <label for="nav-toggle" class="hamburger-label">
+                    <span class="bar bar-1"></span>
+                    <span class="bar bar-2"></span>
+                    <span class="bar bar-3"></span>
+                </label>
             </div>
-
         </nav>
+
         <hr class="hr">
+
         <nav class="nav2">
-
             <div class="nav2-menulist">
-
                 <ul class="menulist">
 
-                    <div class="dropdown">
+                    <a class="anchors" href="https://wemabank.com/about-us/management-team/managing-director/">
+                        <li class="droptext">Managing Director/CEO</li>
+                    </a>
 
-                        <a class="anchors" href="https://wemabank.com/about-us/management-team/managing-director/">
-                            <li class="droptext">Managing Director/CEO</li>
-                        </a>
+                    <a class="anchors" href="https://wemabank.com/about-us/board-of-directors">
+                        <li class="droptext">Board of Directors</li>
+                    </a>
 
-                    </div>
+                    <a class="anchors" href="https://wemabank.com/about-us/management-team">
+                        <li class="droptext">Management Team</li>
+                    </a>
 
-                    <div class="dropdown">
-
-                        <a class="anchors" href="https://wemabank.com/about-us/board-of-directors">
-                            <li class="droptext">Board of Directors</li>
-                        </a>
-
-                    </div>
-
-                    <div class="dropdown">
-
-                        <a class="anchors" href="https://wemabank.com/about-us/management-team">
-                            <li class="droptext">Management Team</li>
-                        </a>
-
-                    </div>
-
-                    <div class="dropdown">
-
-                        <a class="anchors" href="https://wemabank.com/about-us/our-history/">
-                            <li class="droptext">Our History</li>
-                        </a>
-
-                    </div>
+                    <a class="anchors" href="https://wemabank.com/about-us/our-history/">
+                        <li class="droptext">Our History</li>
+                    </a>
 
                     <a class="anchors" href="https://wemabank.com/about-us/our-products/">
                         <li>Our Products</li>
@@ -120,15 +117,55 @@
 
                 </ul>
 
-                <div class="search-div">
-                    <img src="../wema-images/seach icon.svg" alt="search">
-                </div>
+                <div class="search-wrapper">
 
+                    <label for="search-toggle" class="search-icon-label">
+                        <div class="search-div">
+                            <img src="./wema-images/seach icon.svg" alt="search">
+                        </div>
+                    </label>
+
+                    <div class="search-bar-reveal">
+                        <form class="search-form" action="/search" method="get">
+                            <input type="text" name="q" class="search-input" placeholder="Quick search for anything...">
+                            <button type="submit" class="search-submit">Search</button>
+                        </form>
+
+                        <label for="search-toggle" class="search-close">&#x2715;</label>
+                    </div>
+                </div>
             </div>
         </nav>
 
+        <div class="mobile-drawer">
+            <div class="drawer-section">
+                <p class="drawer-label">Menu</p>
+                <a href="">Wema@80</a>
+                <a href="">About Us</a>
+                <a href="">Personal</a>
+                <a href="">Business</a>
+                <a href="https://wemabank.com/smes">SME</a>
+                <a href="https://alat.ng/">ALAT</a>
+                <a href="https://sara.wemabank.com/">SARA</a>
+                <a href="https://wemabank.com/blog">Blog</a>
+                <a href="https://wemabank.com/alat-xplore">Alat Xplore</a>
+                <a href="https://wemabank.com/shares">Shares</a>
+            </div>
+            <div class="drawer-section">
+                <p class="drawer-label">More</p>
+                <a href="https://wemabank.com/careers">Careers</a>
+                <a href="https://wemabank.com/investor-relations-2">Investor Relations</a>
+                <a href="https://wemabank.com/csr">Sustainability</a>
+                <a href="https://wemabank.com/resource-center">Resource Center</a>
+                <a href="https://wemabank.com/alat-evolution">ALAT Evolution</a>
+                <a href="https://wemabank.com/iwd">International Women's Day</a>
+                <a href="https://wemabank.com/contact-us">Contact Us</a>
+            </div>
+        </div>
+
         <hr class="hr">
     </header>
+
 
     <div class="home">
         <div class="home-div">
@@ -292,11 +329,28 @@
 
                     <div class="mini-inner1">
 
+                        <img src="../wema-images/love-think-img.svg" alt="">
+
+                        <p class="mini-paragraph1">Think Passion</p>
+
+                        <p class="mini-paragraph2">We think of great and exciting ideas to solve problems that our
+                            customers care about. We design solutions that inspire joy.</p>
+
                     </div>
                     <div class="mini-inner2">
 
+                        <img src="../wema-images/wema favicon-logo.svg" alt="">
+
                     </div>
                     <div class="mini-inner3">
+
+                        <img src="../wema-images/think-progressive-img.svg" alt="">
+
+                        <p class="mini-paragraph1">Think Progressive</p>
+
+                        <p class="mini-paragraph2">We use cutting-edge technology, new developments and research-driven
+                            ideas to provide accessible solutions.
+                        </p>
 
                     </div>
 
@@ -306,18 +360,38 @@
 
                     <div class="mini-inner4">
 
+                        <img src="../wema-images/think partnership-img.svg" alt="">
+
+                        <p class="mini-paragraph1">Think Partnership</p>
+
+                        <p class="mini-paragraph4">We care for and respect one another. We are thoughtful and recognize
+                            the differences that exist within each other. We welcome contributions from diverse
+                            perspectives and experiences.</p>
+
                     </div>
                     <div class="mini-inner5">
+
+                        <img src="../wema-images/think_plenty-imgsvg.svg" alt="">
+
+                        <p class="mini-paragraph1">Think Plenty</p>
+
+                        <p class="mini-paragraph2">We aim to provide optimum returns to our stakeholders. We provide the
+                            best and most rewarding career to our workforce.</p>
 
                     </div>
                     <div class="mini-inner6">
 
+                        <img src="../wema-images/think-play-img.svg" alt="">
+
+                        <p class="mini-paragraph1">Think Play</p>
+
+                        <p class="mini-paragraph2">We create a work environment that is conducive and devoid of
+                            intimidation. We nurture confidence, creativity and innovation.</p>
+
                     </div>
 
                 </div>
-
             </div>
-
         </div>
     </section>
 
@@ -344,7 +418,6 @@
 
             </div>
 
-        
         </div>
     </section>
 
