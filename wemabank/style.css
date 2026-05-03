@@ -2477,7 +2477,7 @@ marquee {
     align-items: center;
 }
 
-.section-9-div2 > a {
+.section-9-div2>a {
 
     text-decoration: none !important;
 }
@@ -2974,6 +2974,12 @@ marquee {
 
 }
 
+.section10-div2>a {
+
+    text-decoration: none !important;
+
+}
+
 .section10-mini {
 
     width: 394.67px;
@@ -2982,6 +2988,11 @@ marquee {
     background-color: white;
     border: 1px solid #e5e5e5;
 
+}
+
+.section10-mini>h2 {
+
+    color: black;
 }
 
 .s10-mini-imgs {
