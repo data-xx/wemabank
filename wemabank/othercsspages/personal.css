@@ -809,7 +809,6 @@ body {
     height: 454px;
     margin: 48px 195px 0px;
     padding: 0px 32px;
-    border: 2px solid red;
     margin-top: -25px;
     margin-bottom: -25px;
     display: flex;
@@ -824,8 +823,11 @@ body {
     width: 1216px;
     height: 384px;
     padding: 16px;
-    border: 1px solid red;
     margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     border: 1px solid #E5E5E5;
 }
 
 .subhero-mini > img {
@@ -840,9 +842,86 @@ body {
     height: 326px;
     margin: 24px 0px 0px;
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    
 }
+
+.subhero-text > h3 {
+
+    width: 591px;
+    height: 28.8px;
+    font-size: 24px;
+    margin: 48px 0px 32px;
+    font-family: "Inter Tight", sans-serif;
+    color: #2E323D;
+    font-weight: 600;
+
+}
+
+.subhero-text > p {
+
+    width: 591px;
+    height: 63.02px;
+    font-size: 14px;
+    color: #737373;
+    font-family: "Inter Tight", sans-serif;
+
+}
+
+button {
+
+    width: 166.43px;
+    height: 58px;
+    margin-top: 50px !important;
+    border: 1px solid #E6E7E7;
+    border-radius: 50px !important;
+    background-color: white;
+    transition: color 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+button:hover {
+
+    background-color: purple !important;
+}
+
+button:hover a {
+
+    color: white;
+}
+
+button i {
+
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover i {
+
+    transform: translateX(6px);
+}
+
+button > p {
+
+    font-size: 16px;
+    color: #981D87;
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+button > a {
+
+    text-decoration: none !important;
+    margin-top: 14px;
+    color: #981D87;
+    font-weight: 600;
+}
+
+
 
 
 
