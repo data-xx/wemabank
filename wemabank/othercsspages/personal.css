@@ -921,8 +921,41 @@ button > a {
     font-weight: 600;
 }
 
+.section-a {
 
+    width: 100% !important;
+    height: 631.4px !important;
+    margin: 48px 0px 0px;
+    padding: 40px 0px;
+    background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    
+}
 
+.section-a-div {
+
+    width: 1280px;
+    height: 455.4px;
+    margin: 48px 195px;
+    padding: 0px 32px;
+    border: 2px solid white;
+    background-color: white;
+}
+
+.section-a > h2 {
+
+    width: 1216px;
+    height: 38.4px;
+    font-size: 32px;
+    margin: 0px 0px 32px;
+    font-family: "Inter Tight", sans-serif;
+    color: white;
+    margin-left: 195px;
+    
+
+}
 
 
 
