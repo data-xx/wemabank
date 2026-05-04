@@ -828,6 +828,22 @@ body {
     margin-top: 25px;
 }
 
+.subhero-mini > img {
+
+    width: 500px;
+    height: 350px;
+}
+
+.subhero-text {
+
+    width: 591px;
+    height: 326px;
+    margin: 24px 0px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 
 
 
