@@ -551,7 +551,7 @@ body {
     min-width: 1280px;
     height: 36px;
     margin: 0px 195px;
-   
+
 }
 
 .header-under-div {
@@ -565,17 +565,17 @@ body {
     justify-content: start;
     gap: 10px;
     align-items: center;
-      
+
 }
 
-.header-under-div > img {
+.header-under-div>img {
 
     width: 12px;
     height: 12px;
-  
+
 }
 
-.header-under-div > p {
+.header-under-div>p {
 
     width: 55.26px;
     height: 20px;
@@ -621,7 +621,7 @@ body {
     border: none;
 }
 
-.ourhero-leftdiv > h1 {
+.ourhero-leftdiv>h1 {
 
     width: 55.25px;
     height: 20px;
@@ -632,7 +632,7 @@ body {
 
 }
 
-.ourhero-left > h2 {
+.ourhero-left>h2 {
 
     width: 500px;
     height: 134.41px;
@@ -640,10 +640,10 @@ body {
     color: #2E323D;
     font-weight: 600;
     margin-top: 10px;
-   
+
 }
 
-.ourhero-left > p {
+.ourhero-left>p {
 
     width: 475.50px;
     height: 84.03px;
@@ -659,7 +659,7 @@ body {
 
 }
 
-.ourhero-right > img {
+.ourhero-right>img {
 
     width: 420px;
     height: 374px;
@@ -687,29 +687,29 @@ body {
 
 }
 
-.metrics > h2 {
+.metrics>h2 {
 
     width: 206px;
     height: 32px;
     font-size: 24px;
     color: #111827;
     margin-top: 12px;
-    
+
 }
 
-.met1 > img {
+.met1>img {
 
     width: 30px;
     height: 20px;
 
 }
 
-.met1 > span {
+.met1>span {
 
     width: 28.79px;
     height: 20px;
     color: #4B5563;
-    
+
 }
 
 .metrics2 {
@@ -734,13 +734,13 @@ body {
     line-height: 1.25rem;
 }
 
-.met2 > span {
+.met2>span {
 
     width: 20.23px;
     height: 20px;
 }
 
-.met2 > img {
+.met2>img {
 
     width: 14px;
     height: 14px;
@@ -760,11 +760,75 @@ body {
     align-items: center;
 }
 
-.dta > p {
+.dta>p {
 
-   font-size: 11px;
-   margin-top: 15px;
+    font-size: 11px;
+    margin-top: 15px;
 }
+
+.ourmini-hero {
+
+    width: 100%;
+    height: 156.8px;
+    min-width: 1670px;
+    background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ourmini-hero > p {
+
+    width: 1220px;
+    height: 76.8px;
+    color: white;
+    margin: 0;
+    line-height: 2.4rem;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.sub-hero {
+
+    width: 100%;
+    min-width: 1670px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sub-hero-div {
+
+    width: 1280px;
+    height: 454px;
+    margin: 48px 195px 0px;
+    padding: 0px 32px;
+    border: 2px solid red;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+}
+
+.subhero-mini {
+
+    width: 1216px;
+    height: 384px;
+    padding: 16px;
+    border: 1px solid red;
+    margin-top: 25px;
+}
+
+
 
 
 
@@ -1238,6 +1302,6 @@ footer {
         font-size: 12px;
         line-height: 1.4 !important;
         text-align: center;
-        
+
     }
 }
