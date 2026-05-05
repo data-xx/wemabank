@@ -640,7 +640,8 @@ body {
     color: #2E323D;
     font-weight: 600;
     margin-top: 10px;
-
+    line-height: 4rem;
+  
 }
 
 .ourhero-left>p {
@@ -780,7 +781,7 @@ body {
 
 }
 
-.ourmini-hero > p {
+.ourmini-hero>p {
 
     width: 1220px;
     height: 76.8px;
@@ -800,7 +801,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .sub-hero-div {
@@ -815,7 +816,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-   
+
 }
 
 .subhero-mini {
@@ -827,10 +828,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-     border: 1px solid #E5E5E5;
+    border: 1px solid #E5E5E5;
 }
 
-.subhero-mini > img {
+.subhero-mini>img {
 
     width: 500px;
     height: 350px;
@@ -845,10 +846,11 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    
+
+
 }
 
-.subhero-text > h3 {
+.subhero-text>h3 {
 
     width: 591px;
     height: 28.8px;
@@ -860,7 +862,7 @@ body {
 
 }
 
-.subhero-text > p {
+.subhero-text>p {
 
     width: 591px;
     height: 63.02px;
@@ -870,81 +872,79 @@ body {
 
 }
 
-button {
+.btn {
 
     width: 166.43px;
     height: 58px;
     margin-top: 50px !important;
-    border: 1px solid #E6E7E7;
+    padding-top: 18px;
+    border: 1px solid #d8dede !important;
     border-radius: 50px !important;
     background-color: white;
     transition: color 0.3s ease-out;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
-  
+    color: #981D87;
+
 }
 
-button:hover {
+.btn:hover {
 
-    background-color: purple !important;
+    background-color: #981D87 !important;
 }
 
-button:hover a {
+.btn>a {
+
+    color: #981D87;
+    text-decoration: none !important;
+}
+
+.btn:hover a {
 
     color: white;
 }
 
-button i {
+.btn i {
 
     transition: transform 0.3s ease-in-out;
 }
 
-button:hover i {
+.btn:hover i {
 
     transform: translateX(6px);
-}
-
-button > p {
-
-    font-size: 16px;
-    color: #981D87;
-    font-weight: 600;
-    margin-top: 14px;
-}
-
-button > a {
-
-    text-decoration: none !important;
-    margin-top: 14px;
-    color: #981D87;
-    font-weight: 600;
 }
 
 .section-a {
 
     width: 100% !important;
-    height: 631.4px !important;
+    height: 600.4px !important;
     margin: 48px 0px 0px;
     padding: 40px 0px;
     background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
     background-size: cover;
     background-repeat: no-repeat;
-  
-    
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+
 }
 
 .section-a-div {
 
-    width: 1280px;
-    height: 455.4px;
+    width: 1216px;
+    height: 385px;
     margin: 48px 195px;
     padding: 0px 32px;
     border: 2px solid white;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.section-a > h2 {
+.section-a>h2 {
 
     width: 1216px;
     height: 38.4px;
@@ -953,7 +953,116 @@ button > a {
     font-family: "Inter Tight", sans-serif;
     color: white;
     margin-left: 195px;
-    
+
+}
+
+.section-a-mini {
+
+    width: 591px;
+    height: 327px;
+    margin: 24px 0px 0px;
+    padding: 0px 0px 0px 40px;
+
+}
+
+.section-a-mini>h3 {
+
+    width: 551px;
+    height: 28.8px;
+    font-size: 24px;
+    margin: 48px 0px 32px;
+    font-family: "Inter Tight", sans-serif;
+    color: #2E323D;
+    font-weight: 600;
+
+}
+
+.section-a-mini>p {
+
+    width: 551px;
+    height: 63.02px;
+    font-size: 14px;
+    padding: 0px 0px 0px 20px;
+    font-family: "Inter Tight", sans-serif;
+    color: #737373;
+
+}
+
+.section-b {
+
+    width: 100%;
+    min-width: 1670px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-b-div {
+
+    width: 1216px;
+    height: 454.398px;
+    margin: 48px 195px;
+    padding: 0px 32px;
+    margin-bottom: 48px;
+
+}
+
+.section-b-div > h2 {
+
+    width: 1216px;
+    height: 38.4px;
+    font-size: 32px;
+    margin: 0px 0px 32px;
+    color: #2E323D;
+    font-weight: 600;
+}
+
+.section-b-mini {
+
+    width: 1182px;
+    height: 384px;
+    padding: 16px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section-b-mini > img {
+
+    width: 500px;
+    height: 350px;
+}
+
+.section-b-text {
+
+    width: 591px;
+    height: 326px;
+    margin: 24px 0px 0px;
+  
+}
+
+.section-b-text > h3 {
+
+    width: 591px;
+    height: 28.8px;
+    margin: 48px 0px 32px;
+    font-family: "Inter Tight", sans-serif;
+    color: #2E323D;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.section-b-text > p {
+
+    width: 591px;
+    height: 42.02px;
+    font-size: 14px;
+    color: #737373;
+    font-family: "Inter Tight", sans-serif;
 
 }
 
