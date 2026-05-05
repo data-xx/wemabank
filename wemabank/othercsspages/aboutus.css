@@ -1690,7 +1690,6 @@ body {
     }
 }
 
-
 .fourth-section {
 
     display: flex;
@@ -1895,7 +1894,6 @@ body {
 
 }
 
-/* ─── TABLET: 1024px ─── */
 @media (max-width: 1024px) {
 
     .fourth-section {
@@ -2070,17 +2068,6 @@ body {
         line-height: 1.5;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
 
