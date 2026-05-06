@@ -488,22 +488,12 @@ body {
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 220px;
+    min-width: 350px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     top: 100%;
 }
 
-.dropdownlist1 {
-
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    width: 430px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    top: 100%;
-}
 
 .dropdown:hover .dropdown-list {
 
@@ -767,25 +757,28 @@ body {
 .ourmini-hero {
 
     width: 100%;
-    height: 156.8px;
+    height: 170px;
     min-width: 1670px;
     background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 35px;
 
 }
 
 .ourmini-hero>p {
 
-    width: 1220px;
-    height: 76.8px;
+    width: 1280px;
+    height: 100px;
     color: white;
-    margin: 0;
+    margin: 0px 195px;
+    padding: 0px 30px;
     line-height: 2.4rem;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
 
 }
@@ -835,6 +828,7 @@ body {
     .ourhero-left>p {
         width: 100%;
         height: auto;
+        
     }
 
     .ourhero-right {
@@ -1046,7 +1040,7 @@ body {
 
 .subhero-text {
 
-    width: 591px;
+    width: 603px;
     height: 326px;
     margin: 24px 0px 0px;
     display: flex;
@@ -1067,15 +1061,17 @@ body {
     color: #2E323D;
     font-weight: 600;
 
+
 }
 
 .subhero-text>p {
 
-    width: 591px;
-    height: 63.02px;
+    width: 603px;
+    height: 42.02px;
     font-size: 14px;
     color: #737373;
     font-family: "Inter Tight", sans-serif;
+    margin-top: 25px;
 
 }
 

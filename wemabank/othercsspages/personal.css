@@ -1287,6 +1287,8 @@ body {
     background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 50px;
@@ -1314,7 +1316,6 @@ body {
     margin: 0px 0px 32px;
     font-family: "Inter Tight", sans-serif;
     color: white;
-    margin-left: 195px;
 
 }
 
