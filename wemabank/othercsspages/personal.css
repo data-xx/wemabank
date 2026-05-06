@@ -575,14 +575,12 @@ body {
 
 }
 
-.header-under-div>p {
-
+.header-under-div > p {
     width: 55.26px;
     height: 20px;
     font-size: 14px;
     font-family: "Inter Tight", sans-serif;
-    margin-top: 15px;
-
+    margin: 0; 
 }
 
 .our-hero {
@@ -612,24 +610,23 @@ body {
 }
 
 .ourhero-leftdiv {
-
     width: 125.26px;
     height: 44px;
     padding: 12px 35px;
     background-color: #981D87;
     border-radius: 50px;
     border: none;
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
 }
 
-.ourhero-leftdiv>h1 {
-
-    width: 55.25px;
-    height: 20px;
+.ourhero-leftdiv > h1 {
     font-size: 14px;
     font-family: "Inter Tight", sans-serif;
     color: white;
     font-weight: 300;
-
+    margin: 0;                 
 }
 
 .ourhero-left>h2 {
