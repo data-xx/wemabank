@@ -1283,6 +1283,7 @@ body {
     background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 50px;
@@ -1291,10 +1292,11 @@ body {
 
 .section-a-div {
 
-    width: 1216px;
+    width: 1240px;
     height: 385px;
     margin: 48px 195px;
-    padding: 0px 32px;
+    
+    padding: 16px;
     border: 2px solid white;
     background-color: white;
     display: flex;
@@ -1310,13 +1312,12 @@ body {
     margin: 0px 0px 32px;
     font-family: "Inter Tight", sans-serif;
     color: white;
-    margin-left: 195px;
-
+    
 }
 
 .section-a-mini {
 
-    width: 591px;
+    width: 603px;
     height: 327px;
     margin: 24px 0px 0px;
     padding: 0px 0px 0px 40px;
@@ -1325,7 +1326,7 @@ body {
 
 .section-a-mini>h3 {
 
-    width: 551px;
+    width: 563px;
     height: 28.8px;
     font-size: 24px;
     margin: 48px 0px 32px;
@@ -1337,7 +1338,7 @@ body {
 
 .section-a-mini>p {
 
-    width: 551px;
+    width: 563px;
     height: 63.02px;
     font-size: 14px;
     padding: 0px 0px 0px 20px;
