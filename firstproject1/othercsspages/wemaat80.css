@@ -596,6 +596,125 @@ body {
 
 }
 
+.wematext-div {
+    width: 304px;
+    height: 499px;
+}
+
+.section-i-children img,
+.wematext-div img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .section-i {
+        height: auto;
+        min-height: 400px;
+        padding: 40px 24px;
+    }
+
+    .section-i-parent {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .ribbon-img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        width: 120px;
+        height: auto;
+    }
+
+
+    .section-i-children {
+        position: relative;
+        width: 100%;
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .wematext-div {
+        width: auto;
+        height: auto;
+    }
+
+    .wematext-img {
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+    }
+
+    .section-i-children>img {
+        max-width: 200px;
+        height: auto;
+    }
+
+    .section-i-children>div>img {
+        width: 160px !important;
+        height: 160px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-i {
+        padding: 40px 16px;
+        min-height: 360px;
+    }
+
+    .ribbon-img {
+        display: none;
+    }
+
+    .section-i-children {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .wematext-img {
+        max-width: 200px;
+    }
+
+    .section-i-children>img {
+        max-width: 180px;
+    }
+
+    .section-i-children>div>img {
+        width: 140px !important;
+        height: 140px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-i {
+        padding: 32px 12px;
+        min-height: 300px;
+    }
+
+    .section-i-children {
+        gap: 16px;
+    }
+
+    .wematext-img {
+        max-width: 160px;
+    }
+
+    .section-i-children>img {
+        max-width: 140px;
+    }
+
+    .section-i-children>div>img {
+        width: 110px !important;
+        height: 110px !important;
+    }
+}
 
 .section-ii {
 
@@ -1602,7 +1721,7 @@ body {
         box-sizing: border-box;
     }
 
- 
+
     .section6-1st-div {
         width: 100%;
         height: auto;
@@ -1681,7 +1800,7 @@ body {
     .section6-mini>img {
         width: 100%;
         height: auto;
-       
+
     }
 
     .section6-mini>.section6-mini-div,
@@ -1742,7 +1861,7 @@ body {
 
     .section6-inner {
         width: 100%;
-      
+
     }
 
 
@@ -1754,7 +1873,7 @@ body {
 
     .section6-inner2 {
         width: 100%;
-        
+
     }
 
     .section6-inner2:last-child {
@@ -1772,7 +1891,7 @@ body {
 
     .div2-h3-2nd {
         margin-top: 16px;
-        
+
     }
 }
 
