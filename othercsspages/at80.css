@@ -179,7 +179,6 @@ body {
 
 }
 
-
 .nav-toggle-input:checked~.nav .bar-1 {
 
     transform: translateY(7px) rotate(45deg);
@@ -549,7 +548,6 @@ body {
     color: #981D87;
 }
 
-
 .section-i {
 
     width: 100%;
@@ -795,7 +793,6 @@ body {
 
 }
 
-
 .sect3-img-div {
 
     width: 1280px;
@@ -846,8 +843,7 @@ body {
     font-size: 60px;
     color: white;
     font-weight: 700;
-
-
+    
 }
 
 .sect3-txt>.sect3-p1 {
