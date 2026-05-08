@@ -920,8 +920,6 @@ body {
     }
 }
 
-
-
 .second-section {
 
     width: 100%;
@@ -1459,7 +1457,6 @@ body {
     font-weight: 600;
 }
 
-
 @media (max-width: 1024px) {
 
     .third-section-div {
@@ -1542,7 +1539,6 @@ body {
         margin-top: 0px;
     }
 }
-
 
 @media (max-width: 768px) {
 
@@ -1734,7 +1730,6 @@ body {
     transition: transform 0.3s ease-in-out;
 
 }
-
 
 .fourth-inner1>img {
 
@@ -1958,8 +1953,6 @@ body {
     }
 }
 
-
-/* ─── MOBILE: 768px ─── */
 @media (max-width: 768px) {
 
     .fourth-section {
