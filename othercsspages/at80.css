@@ -769,7 +769,127 @@ body {
     border-top-left-radius: 20px;
     cursor: pointer;
 
+}
 
+
+@media (max-width: 1024px) {
+
+    .section-ii {
+        height: auto;
+        margin: 0;
+        padding: 12px 24px;
+        box-sizing: border-box;
+    }
+
+    .section-ii-div {
+        width: 100%;
+        height: auto;
+        padding: 8px 0;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .section-ii-p {
+        width: auto;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .section-ii-img {
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+
+    .section-ii-img a img {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .section-ii-side {
+
+        position: relative;
+        right: auto;
+        margin-top: 0;
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+    }
+
+    .section-ii-side img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .section-ii {
+        padding: 14px 16px;
+    }
+
+
+    .section-ii-div {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .section-ii-p {
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+
+    .section-ii-img {
+        order: 2;
+    }
+
+    .section-ii-side {
+        order: 2;
+
+    }
+
+
+    .section-ii-div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .section-ii {
+        padding: 12px;
+    }
+
+    .section-ii-p {
+        font-size: 12px;
+    }
+
+    .section-ii-img {
+        gap: 12px;
+    }
+
+    .section-ii-img a img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .section-ii-side {
+        width: 38px;
+        height: 38px;
+        border-top-right-radius: 14px;
+        border-top-left-radius: 14px;
+    }
+
+    .section-ii-side img {
+        width: 16px;
+        height: 16px;
+    }
 }
 
 .section-iii {
@@ -843,7 +963,7 @@ body {
     font-size: 60px;
     color: white;
     font-weight: 700;
-    
+
 }
 
 .sect3-txt>.sect3-p1 {
