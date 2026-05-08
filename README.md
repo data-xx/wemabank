@@ -23,7 +23,7 @@ This project showcases web development fundamentals by recreating a banking webs
 
 ## 🚀 Live Demo
 
-Check out the live deployment: [https://level1firstproject.vercel.app/](https://level1firstproject.vercel.app/)
+Check out the live deployment: [https://wemaproject.vercel.app/](https://wemaproject.vercel.app/)
 
 ## 📁 Project Structure
 
