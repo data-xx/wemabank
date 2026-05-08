@@ -179,7 +179,6 @@ body {
 
 }
 
-
 .nav-toggle-input:checked~.nav .bar-1 {
 
     transform: translateY(7px) rotate(45deg);
