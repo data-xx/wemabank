@@ -1300,7 +1300,7 @@ body {
     width: 1216px;
     height: 385px;
     margin: 48px 195px;
-    padding: 0px 32px;
+    padding: 16px;
     border: 2px solid white;
     background-color: white;
     display: flex;
